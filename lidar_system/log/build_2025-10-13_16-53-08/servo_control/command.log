@@ -1,0 +1,2 @@
+Invoking command in '/root/lidar_system/build/servo_control': /usr/bin/cmake /root/lidar_system/servo_control -DCMAKE_INSTALL_PREFIX=/root/lidar_system/install/servo_control
+Invoked command in '/root/lidar_system/build/servo_control' returned '1': /usr/bin/cmake /root/lidar_system/servo_control -DCMAKE_INSTALL_PREFIX=/root/lidar_system/install/servo_control

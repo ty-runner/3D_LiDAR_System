@@ -1,0 +1,17 @@
+[0.146s] Invoking command in '/root/lidar_system/build/servo_control': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /root/lidar_system/build/servo_control -- -j4 -l4
+[0.930s] [35m[1mScanning dependencies of target dynamic_tf_broadcaster[0m
+[1.054s] [ 33%] Built target scan_sequence_node
+[1.118s] [ 66%] Built target lidar_pointcloud_node
+[1.152s] [ 83%] [32mBuilding CXX object CMakeFiles/dynamic_tf_broadcaster.dir/src/dynamic_tf_broadcaster.cpp.o[0m
+[8.469s] [01m[K/root/lidar_system/servo_control/src/dynamic_tf_broadcaster.cpp:[m[K In member function ‘[01m[Kvoid DynamicTFBroadcaster::publish_tf()[m[K’:
+[8.470s] [01m[K/root/lidar_system/servo_control/src/dynamic_tf_broadcaster.cpp:153:21:[m[K [01;31m[Kerror: [m[K‘[01m[Kclass rclcpp::Time[m[K’ has no member named ‘[01m[Ksec[m[K’
+[8.470s]   153 |     if (last_stamp_.[01;31m[Ksec[m[K == 0 && last_stamp_.nanosec == 0) {
+[8.470s]       |                     [01;31m[K^~~[m[K
+[8.471s] [01m[K/root/lidar_system/servo_control/src/dynamic_tf_broadcaster.cpp:153:45:[m[K [01;31m[Kerror: [m[K‘[01m[Kclass rclcpp::Time[m[K’ has no member named ‘[01m[Knanosec[m[K’; did you mean ‘[01m[Knanoseconds[m[K’?
+[8.471s]   153 |     if (last_stamp_.sec == 0 && last_stamp_.[01;31m[Knanosec[m[K == 0) {
+[8.471s]       |                                             [01;31m[K^~~~~~~[m[K
+[8.472s]       |                                             [32m[Knanoseconds[m[K
+[19.508s] make[2]: *** [CMakeFiles/dynamic_tf_broadcaster.dir/build.make:63: CMakeFiles/dynamic_tf_broadcaster.dir/src/dynamic_tf_broadcaster.cpp.o] Error 1
+[19.509s] make[1]: *** [CMakeFiles/Makefile2:136: CMakeFiles/dynamic_tf_broadcaster.dir/all] Error 2
+[19.509s] make: *** [Makefile:141: all] Error 2
+[19.521s] Invoked command in '/root/lidar_system/build/servo_control' returned '2': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /root/lidar_system/build/servo_control -- -j4 -l4

@@ -1,0 +1,17 @@
+CMake Error at CMakeLists.txt:21 (find_package):
+  By not providing "Findlaser_geometry.cmake" in CMAKE_MODULE_PATH this
+  project has asked CMake to find a package configuration file provided by
+  "laser_geometry", but CMake did not find one.
+
+  Could not find a package configuration file provided by "laser_geometry"
+  with any of the following names:
+
+    laser_geometryConfig.cmake
+    laser_geometry-config.cmake
+
+  Add the installation prefix of "laser_geometry" to CMAKE_PREFIX_PATH or set
+  "laser_geometry_DIR" to a directory containing one of the above files.  If
+  "laser_geometry" provides a separate development package or SDK, be sure it
+  has been installed.
+
+

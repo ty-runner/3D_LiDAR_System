@@ -1,0 +1,21 @@
+[0.054s] Invoking command in '/root/lidar_system/build/servo_control': /usr/bin/cmake /root/lidar_system/servo_control -DCMAKE_INSTALL_PREFIX=/root/lidar_system/install/servo_control
+[0.134s] CMake Error at CMakeLists.txt:9 (find_package):
+[0.136s]   By not providing "Findament_cmake.cmake" in CMAKE_MODULE_PATH this project
+[0.137s]   has asked CMake to find a package configuration file provided by
+[0.138s]   "ament_cmake", but CMake did not find one.
+[0.139s] 
+[0.143s]   Could not find a package configuration file provided by "ament_cmake" with
+[0.145s]   any of the following names:
+[0.145s] 
+[0.146s]     ament_cmakeConfig.cmake
+[0.146s]     ament_cmake-config.cmake
+[0.147s] 
+[0.147s]   Add the installation prefix of "ament_cmake" to CMAKE_PREFIX_PATH or set
+[0.148s]   "ament_cmake_DIR" to a directory containing one of the above files.  If
+[0.149s]   "ament_cmake" provides a separate development package or SDK, be sure it
+[0.149s]   has been installed.
+[0.150s] 
+[0.150s] 
+[0.151s] -- Configuring incomplete, errors occurred!
+[0.151s] See also "/root/lidar_system/build/servo_control/CMakeFiles/CMakeOutput.log".
+[0.152s] Invoked command in '/root/lidar_system/build/servo_control' returned '1': /usr/bin/cmake /root/lidar_system/servo_control -DCMAKE_INSTALL_PREFIX=/root/lidar_system/install/servo_control

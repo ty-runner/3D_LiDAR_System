@@ -1,0 +1,32 @@
+[35m[1mScanning dependencies of target scan_sequence_node[0m
+[ 33%] Built target dynamic_tf_broadcaster
+[ 66%] Built target lidar_pointcloud_node
+[ 83%] [32mBuilding CXX object CMakeFiles/scan_sequence_node.dir/src/scan_sequence_node.cpp.o[0m
+[100%] [32m[1mLinking CXX executable scan_sequence_node[0m
+[100%] Built target scan_sequence_node
+-- Install configuration: ""
+-- Up-to-date: /root/lidar_system/install/servo_control/lib/servo_control/dynamic_tf_broadcaster
+-- Up-to-date: /root/lidar_system/install/servo_control/lib/servo_control/lidar_pointcloud_node
+-- Installing: /root/lidar_system/install/servo_control/lib/servo_control/scan_sequence_node
+-- Set runtime path of "/root/lidar_system/install/servo_control/lib/servo_control/scan_sequence_node" to ""
+-- Up-to-date: /root/lidar_system/install/servo_control/share/servo_control/environment/pythonpath.sh
+-- Up-to-date: /root/lidar_system/install/servo_control/share/servo_control/environment/pythonpath.dsv
+-- Up-to-date: /root/lidar_system/install/servo_control/lib/python3.8/site-packages/servo_control
+-- Up-to-date: /root/lidar_system/install/servo_control/lib/python3.8/site-packages/servo_control/__init__.py
+Listing '/root/lidar_system/install/servo_control/lib/python3.8/site-packages/servo_control'...
+-- Up-to-date: /root/lidar_system/install/servo_control/lib/servo_control/servo_motor_node.py
+-- Up-to-date: /root/lidar_system/install/servo_control/share/ament_index/resource_index/package_run_dependencies/servo_control
+-- Up-to-date: /root/lidar_system/install/servo_control/share/ament_index/resource_index/parent_prefix_path/servo_control
+-- Up-to-date: /root/lidar_system/install/servo_control/share/servo_control/environment/ament_prefix_path.sh
+-- Up-to-date: /root/lidar_system/install/servo_control/share/servo_control/environment/ament_prefix_path.dsv
+-- Up-to-date: /root/lidar_system/install/servo_control/share/servo_control/environment/path.sh
+-- Up-to-date: /root/lidar_system/install/servo_control/share/servo_control/environment/path.dsv
+-- Up-to-date: /root/lidar_system/install/servo_control/share/servo_control/local_setup.bash
+-- Up-to-date: /root/lidar_system/install/servo_control/share/servo_control/local_setup.sh
+-- Up-to-date: /root/lidar_system/install/servo_control/share/servo_control/local_setup.zsh
+-- Up-to-date: /root/lidar_system/install/servo_control/share/servo_control/local_setup.dsv
+-- Installing: /root/lidar_system/install/servo_control/share/servo_control/package.dsv
+-- Up-to-date: /root/lidar_system/install/servo_control/share/ament_index/resource_index/packages/servo_control
+-- Up-to-date: /root/lidar_system/install/servo_control/share/servo_control/cmake/servo_controlConfig.cmake
+-- Up-to-date: /root/lidar_system/install/servo_control/share/servo_control/cmake/servo_controlConfig-version.cmake
+-- Up-to-date: /root/lidar_system/install/servo_control/share/servo_control/package.xml

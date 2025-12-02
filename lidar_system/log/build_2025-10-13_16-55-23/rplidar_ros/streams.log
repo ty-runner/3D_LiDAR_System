@@ -1,0 +1,21 @@
+[0.062s] Invoking command in '/root/lidar_system/build/rplidar_ros': /usr/bin/cmake /root/lidar_system/rplidar_ros -DCMAKE_INSTALL_PREFIX=/root/lidar_system/install/rplidar_ros
+[0.143s] CMake Error at CMakeLists.txt:45 (find_package):
+[0.144s]   By not providing "Findament_cmake.cmake" in CMAKE_MODULE_PATH this project
+[0.144s]   has asked CMake to find a package configuration file provided by
+[0.145s]   "ament_cmake", but CMake did not find one.
+[0.145s] 
+[0.145s]   Could not find a package configuration file provided by "ament_cmake" with
+[0.146s]   any of the following names:
+[0.146s] 
+[0.147s]     ament_cmakeConfig.cmake
+[0.148s]     ament_cmake-config.cmake
+[0.149s] 
+[0.150s]   Add the installation prefix of "ament_cmake" to CMAKE_PREFIX_PATH or set
+[0.151s]   "ament_cmake_DIR" to a directory containing one of the above files.  If
+[0.152s]   "ament_cmake" provides a separate development package or SDK, be sure it
+[0.153s]   has been installed.
+[0.154s] 
+[0.159s] 
+[0.160s] -- Configuring incomplete, errors occurred!
+[0.161s] See also "/root/lidar_system/build/rplidar_ros/CMakeFiles/CMakeOutput.log".
+[0.163s] Invoked command in '/root/lidar_system/build/rplidar_ros' returned '1': /usr/bin/cmake /root/lidar_system/rplidar_ros -DCMAKE_INSTALL_PREFIX=/root/lidar_system/install/rplidar_ros

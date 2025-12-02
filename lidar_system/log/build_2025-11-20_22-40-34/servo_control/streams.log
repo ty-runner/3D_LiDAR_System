@@ -1,0 +1,139 @@
+[0.092s] Invoking command in '/root/lidar_system/build/servo_control': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /root/lidar_system/build/servo_control -- -j4 -l4
+[0.486s] [35m[1mScanning dependencies of target dynamic_tf_broadcaster[0m
+[0.779s] [ 33%] Built target scan_sequence_node
+[0.827s] [ 50%] [32mBuilding CXX object CMakeFiles/dynamic_tf_broadcaster.dir/src/dynamic_tf_broadcaster.cpp.o[0m
+[0.894s] [ 83%] Built target lidar_pointcloud_node
+[9.203s] [01m[K/root/lidar_system/servo_control/src/dynamic_tf_broadcaster.cpp:153:5:[m[K [01;31m[Kerror: [m[Kexpected unqualified-id before ‘[01m[Kif[m[K’
+[9.204s]   153 |     [01;31m[Kif[m[K (last_stamp_.seconds() == 0 && last_stamp_.nanoseconds() == 0) {
+[9.205s]       |     [01;31m[K^~[m[K
+[9.206s] [01m[K/root/lidar_system/servo_control/src/dynamic_tf_broadcaster.cpp:155:7:[m[K [01;31m[Kerror: [m[Kexpected unqualified-id before ‘[01m[Kelse[m[K’
+[9.207s]   155 |     } [01;31m[Kelse[m[K {
+[9.211s]       |       [01;31m[K^~~~[m[K
+[9.212s] [01m[K/root/lidar_system/servo_control/src/dynamic_tf_broadcaster.cpp:158:5:[m[K [01;31m[Kerror: [m[K‘[01m[Kt[m[K’ does not name a type; did you mean ‘[01m[Ktm[m[K’?
+[9.212s]   158 |     [01;31m[Kt[m[K.header.frame_id = parent_frame_;
+[9.213s]       |     [01;31m[K^[m[K
+[9.213s]       |     [32m[Ktm[m[K
+[9.215s] [01m[K/root/lidar_system/servo_control/src/dynamic_tf_broadcaster.cpp:159:5:[m[K [01;31m[Kerror: [m[K‘[01m[Kt[m[K’ does not name a type; did you mean ‘[01m[Ktm[m[K’?
+[9.216s]   159 |     [01;31m[Kt[m[K.child_frame_id  = child_frame_;
+[9.216s]       |     [01;31m[K^[m[K
+[9.217s]       |     [32m[Ktm[m[K
+[9.221s] [01m[K/root/lidar_system/servo_control/src/dynamic_tf_broadcaster.cpp:162:5:[m[K [01;31m[Kerror: [m[K‘[01m[Kt[m[K’ does not name a type; did you mean ‘[01m[Ktm[m[K’?
+[9.222s]   162 |     [01;31m[Kt[m[K.transform.translation.x = px_ + offset_x_;
+[9.222s]       |     [01;31m[K^[m[K
+[9.223s]       |     [32m[Ktm[m[K
+[9.228s] [01m[K/root/lidar_system/servo_control/src/dynamic_tf_broadcaster.cpp:163:5:[m[K [01;31m[Kerror: [m[K‘[01m[Kt[m[K’ does not name a type; did you mean ‘[01m[Ktm[m[K’?
+[9.231s]   163 |     [01;31m[Kt[m[K.transform.translation.y = py_ + offset_y_;
+[9.231s]       |     [01;31m[K^[m[K
+[9.233s]       |     [32m[Ktm[m[K
+[9.238s] [01m[K/root/lidar_system/servo_control/src/dynamic_tf_broadcaster.cpp:164:5:[m[K [01;31m[Kerror: [m[K‘[01m[Kt[m[K’ does not name a type; did you mean ‘[01m[Ktm[m[K’?
+[9.238s]   164 |     [01;31m[Kt[m[K.transform.translation.z = pz_ + offset_z_;
+[9.239s]       |     [01;31m[K^[m[K
+[9.239s]       |     [32m[Ktm[m[K
+[9.241s] [01m[K/root/lidar_system/servo_control/src/dynamic_tf_broadcaster.cpp:170:5:[m[K [01;31m[Kerror: [m[K‘[01m[Kq[m[K’ does not name a type
+[9.241s]   170 |     [01;31m[Kq[m[K.setRPY(0.0, tilt_rad, pan_rad);
+[9.242s]       |     [01;31m[K^[m[K
+[9.247s] [01m[K/root/lidar_system/servo_control/src/dynamic_tf_broadcaster.cpp:171:5:[m[K [01;31m[Kerror: [m[K‘[01m[Kq[m[K’ does not name a type
+[9.251s]   171 |     [01;31m[Kq[m[K.normalize();
+[9.252s]       |     [01;31m[K^[m[K
+[9.254s] [01m[K/root/lidar_system/servo_control/src/dynamic_tf_broadcaster.cpp:173:5:[m[K [01;31m[Kerror: [m[K‘[01m[Kt[m[K’ does not name a type; did you mean ‘[01m[Ktm[m[K’?
+[9.254s]   173 |     [01;31m[Kt[m[K.transform.rotation.x = q.x();
+[9.255s]       |     [01;31m[K^[m[K
+[9.255s]       |     [32m[Ktm[m[K
+[9.262s] [01m[K/root/lidar_system/servo_control/src/dynamic_tf_broadcaster.cpp:174:5:[m[K [01;31m[Kerror: [m[K‘[01m[Kt[m[K’ does not name a type; did you mean ‘[01m[Ktm[m[K’?
+[9.263s]   174 |     [01;31m[Kt[m[K.transform.rotation.y = q.y();
+[9.263s]       |     [01;31m[K^[m[K
+[9.264s]       |     [32m[Ktm[m[K
+[9.267s] [01m[K/root/lidar_system/servo_control/src/dynamic_tf_broadcaster.cpp:175:5:[m[K [01;31m[Kerror: [m[K‘[01m[Kt[m[K’ does not name a type; did you mean ‘[01m[Ktm[m[K’?
+[9.269s]   175 |     [01;31m[Kt[m[K.transform.rotation.z = q.z();
+[9.269s]       |     [01;31m[K^[m[K
+[9.270s]       |     [32m[Ktm[m[K
+[9.274s] [01m[K/root/lidar_system/servo_control/src/dynamic_tf_broadcaster.cpp:176:5:[m[K [01;31m[Kerror: [m[K‘[01m[Kt[m[K’ does not name a type; did you mean ‘[01m[Ktm[m[K’?
+[9.275s]   176 |     [01;31m[Kt[m[K.transform.rotation.w = q.w();
+[9.276s]       |     [01;31m[K^[m[K
+[9.276s]       |     [32m[Ktm[m[K
+[9.292s] [01m[K/root/lidar_system/servo_control/src/dynamic_tf_broadcaster.cpp:178:5:[m[K [01;31m[Kerror: [m[K‘[01m[Ktf_broadcaster_[m[K’ does not name a type
+[9.293s]   178 |     [01;31m[Ktf_broadcaster_[m[K->sendTransform(t);
+[9.294s]       |     [01;31m[K^~~~~~~~~~~~~~~[m[K
+[9.301s] [01m[K/root/lidar_system/servo_control/src/dynamic_tf_broadcaster.cpp:167:29:[m[K [01;31m[Kerror: [m[K‘[01m[Kpan_deg_[m[K’ was not declared in this scope
+[9.302s]   167 |     const double pan_rad  = [01;31m[Kpan_deg_[m[K  * M_PI / 180.0;
+[9.303s]       |                             [01;31m[K^~~~~~~~[m[K
+[9.313s] [01m[K/root/lidar_system/servo_control/src/dynamic_tf_broadcaster.cpp:168:29:[m[K [01;31m[Kerror: [m[K‘[01m[Ktilt_deg_[m[K’ was not declared in this scope
+[9.314s]   168 |     const double tilt_rad = [01;31m[Ktilt_deg_[m[K * M_PI / 180.0;
+[9.314s]       |                             [01;31m[K^~~~~~~~~[m[K
+[9.315s] [01m[K/root/lidar_system/servo_control/src/dynamic_tf_broadcaster.cpp:[m[K In constructor ‘[01m[KDynamicTFBroadcaster::DynamicTFBroadcaster()[m[K’:
+[9.315s] [01m[K/root/lidar_system/servo_control/src/dynamic_tf_broadcaster.cpp:88:5:[m[K [01;31m[Kerror: [m[Kclass ‘[01m[KDynamicTFBroadcaster[m[K’ does not have any field named ‘[01m[Khave_pose_[m[K’
+[9.316s]    88 |     [01;31m[Khave_pose_[m[K(false),
+[9.317s]       |     [01;31m[K^~~~~~~~~~[m[K
+[9.330s] [01m[K/root/lidar_system/servo_control/src/dynamic_tf_broadcaster.cpp:89:5:[m[K [01;31m[Kerror: [m[Kclass ‘[01m[KDynamicTFBroadcaster[m[K’ does not have any field named ‘[01m[Kpan_deg_[m[K’
+[9.331s]    89 |     [01;31m[Kpan_deg_[m[K(0.0), tilt_deg_(0.0)
+[9.332s]       |     [01;31m[K^~~~~~~~[m[K
+[9.333s] [01m[K/root/lidar_system/servo_control/src/dynamic_tf_broadcaster.cpp:89:20:[m[K [01;31m[Kerror: [m[Kclass ‘[01m[KDynamicTFBroadcaster[m[K’ does not have any field named ‘[01m[Ktilt_deg_[m[K’
+[9.334s]    89 |     pan_deg_(0.0), [01;31m[Ktilt_deg_[m[K(0.0)
+[9.335s]       |                    [01;31m[K^~~~~~~~~[m[K
+[9.343s] [01m[K/root/lidar_system/servo_control/src/dynamic_tf_broadcaster.cpp:92:5:[m[K [01;31m[Kerror: [m[K‘[01m[Kparent_frame_[m[K’ was not declared in this scope
+[9.343s]    92 |     [01;31m[Kparent_frame_[m[K = this->declare_parameter<std::string>("parent_frame", "base_link"); // or "map"
+[9.344s]       |     [01;31m[K^~~~~~~~~~~~~[m[K
+[9.385s] [01m[K/root/lidar_system/servo_control/src/dynamic_tf_broadcaster.cpp:93:5:[m[K [01;31m[Kerror: [m[K‘[01m[Kchild_frame_[m[K’ was not declared in this scope
+[9.388s]    93 |     [01;31m[Kchild_frame_[m[K  = this->declare_parameter<std::string>("child_frame",  "laser_frame");
+[9.389s]       |     [01;31m[K^~~~~~~~~~~~[m[K
+[9.397s] [01m[K/root/lidar_system/servo_control/src/dynamic_tf_broadcaster.cpp:95:5:[m[K [01;31m[Kerror: [m[K‘[01m[Koffset_x_[m[K’ was not declared in this scope; did you mean ‘[01m[Koffsetof[m[K’?
+[9.398s]    95 |     [01;31m[Koffset_x_[m[K = this->declare_parameter<double>("offset_x", 0.0);
+[9.398s]       |     [01;31m[K^~~~~~~~~[m[K
+[9.399s]       |     [32m[Koffsetof[m[K
+[9.420s] [01m[K/root/lidar_system/servo_control/src/dynamic_tf_broadcaster.cpp:96:5:[m[K [01;31m[Kerror: [m[K‘[01m[Koffset_y_[m[K’ was not declared in this scope; did you mean ‘[01m[Koffsetof[m[K’?
+[9.420s]    96 |     [01;31m[Koffset_y_[m[K = this->declare_parameter<double>("offset_y", 0.0);
+[9.421s]       |     [01;31m[K^~~~~~~~~[m[K
+[9.422s]       |     [32m[Koffsetof[m[K
+[9.432s] [01m[K/root/lidar_system/servo_control/src/dynamic_tf_broadcaster.cpp:97:5:[m[K [01;31m[Kerror: [m[K‘[01m[Koffset_z_[m[K’ was not declared in this scope; did you mean ‘[01m[Koffsetof[m[K’?
+[9.433s]    97 |     [01;31m[Koffset_z_[m[K = this->declare_parameter<double>("offset_z", 0.0);
+[9.433s]       |     [01;31m[K^~~~~~~~~[m[K
+[9.434s]       |     [32m[Koffsetof[m[K
+[9.447s] [01m[K/root/lidar_system/servo_control/src/dynamic_tf_broadcaster.cpp:101:5:[m[K [01;31m[Kerror: [m[K‘[01m[Ktf_broadcaster_[m[K’ was not declared in this scope
+[9.447s]   101 |     [01;31m[Ktf_broadcaster_[m[K = std::make_shared<tf2_ros::TransformBroadcaster>(this);
+[9.448s]       |     [01;31m[K^~~~~~~~~~~~~~~[m[K
+[9.476s] [01m[K/root/lidar_system/servo_control/src/dynamic_tf_broadcaster.cpp:104:5:[m[K [01;31m[Kerror: [m[K‘[01m[Kpose_sub_[m[K’ was not declared in this scope; did you mean ‘[01m[Kpose_cb[m[K’?
+[9.477s]   104 |     [01;31m[Kpose_sub_[m[K = this->create_subscription<geometry_msgs::msg::PoseStamped>(
+[9.480s]       |     [01;31m[K^~~~~~~~~[m[K
+[9.482s]       |     [32m[Kpose_cb[m[K
+[9.606s] [01m[K/root/lidar_system/servo_control/src/dynamic_tf_broadcaster.cpp:108:5:[m[K [01;31m[Kerror: [m[K‘[01m[Kangles_sub_[m[K’ was not declared in this scope; did you mean ‘[01m[Kangles_cb[m[K’?
+[9.607s]   108 |     [01;31m[Kangles_sub_[m[K = this->create_subscription<std_msgs::msg::Float32MultiArray>(
+[9.607s]       |     [01;31m[K^~~~~~~~~~~[m[K
+[9.608s]       |     [32m[Kangles_cb[m[K
+[9.684s] [01m[K/root/lidar_system/servo_control/src/dynamic_tf_broadcaster.cpp:114:5:[m[K [01;31m[Kerror: [m[K‘[01m[Ktimer_[m[K’ was not declared in this scope; did you mean ‘[01m[Ktimer_t[m[K’?
+[9.685s]   114 |     [01;31m[Ktimer_[m[K = this->create_wall_timer(
+[9.685s]       |     [01;31m[K^~~~~~[m[K
+[9.686s]       |     [32m[Ktimer_t[m[K
+[9.769s] [01m[K/root/lidar_system/servo_control/src/dynamic_tf_broadcaster.cpp:[m[K In member function ‘[01m[Kvoid DynamicTFBroadcaster::pose_cb(geometry_msgs::msg::PoseStamped_<std::allocator<void> >::SharedPtr)[m[K’:
+[9.770s] [01m[K/root/lidar_system/servo_control/src/dynamic_tf_broadcaster.cpp:126:5:[m[K [01;31m[Kerror: [m[K‘[01m[Kpx_[m[K’ was not declared in this scope
+[9.771s]   126 |     [01;31m[Kpx_[m[K = msg->pose.position.x;
+[9.771s]       |     [01;31m[K^~~[m[K
+[9.777s] [01m[K/root/lidar_system/servo_control/src/dynamic_tf_broadcaster.cpp:127:5:[m[K [01;31m[Kerror: [m[K‘[01m[Kpy_[m[K’ was not declared in this scope
+[9.778s]   127 |     [01;31m[Kpy_[m[K = msg->pose.position.y;
+[9.779s]       |     [01;31m[K^~~[m[K
+[9.785s] [01m[K/root/lidar_system/servo_control/src/dynamic_tf_broadcaster.cpp:128:5:[m[K [01;31m[Kerror: [m[K‘[01m[Kpz_[m[K’ was not declared in this scope
+[9.785s]   128 |     [01;31m[Kpz_[m[K = msg->pose.position.z;
+[9.787s]       |     [01;31m[K^~~[m[K
+[9.799s] [01m[K/root/lidar_system/servo_control/src/dynamic_tf_broadcaster.cpp:129:5:[m[K [01;31m[Kerror: [m[K‘[01m[Klast_stamp_[m[K’ was not declared in this scope
+[9.799s]   129 |     [01;31m[Klast_stamp_[m[K = msg->header.stamp;
+[9.799s]       |     [01;31m[K^~~~~~~~~~~[m[K
+[9.811s] [01m[K/root/lidar_system/servo_control/src/dynamic_tf_broadcaster.cpp:130:5:[m[K [01;31m[Kerror: [m[K‘[01m[Khave_pose_[m[K’ was not declared in this scope
+[9.811s]   130 |     [01;31m[Khave_pose_[m[K = true;
+[9.812s]       |     [01;31m[K^~~~~~~~~~[m[K
+[9.844s] [01m[K/root/lidar_system/servo_control/src/dynamic_tf_broadcaster.cpp:[m[K In member function ‘[01m[Kvoid DynamicTFBroadcaster::angles_cb(std_msgs::msg::Float32MultiArray_<std::allocator<void> >::SharedPtr)[m[K’:
+[9.845s] [01m[K/root/lidar_system/servo_control/src/dynamic_tf_broadcaster.cpp:139:5:[m[K [01;31m[Kerror: [m[K‘[01m[Kpan_deg_[m[K’ was not declared in this scope
+[9.845s]   139 |     [01;31m[Kpan_deg_[m[K  = msg->data[0];
+[9.846s]       |     [01;31m[K^~~~~~~~[m[K
+[9.856s] [01m[K/root/lidar_system/servo_control/src/dynamic_tf_broadcaster.cpp:140:5:[m[K [01;31m[Kerror: [m[K‘[01m[Ktilt_deg_[m[K’ was not declared in this scope
+[9.858s]   140 |     [01;31m[Ktilt_deg_[m[K = msg->data[1];
+[9.859s]       |     [01;31m[K^~~~~~~~~[m[K
+[9.860s] [01m[K/root/lidar_system/servo_control/src/dynamic_tf_broadcaster.cpp:[m[K At global scope:
+[9.860s] [01m[K/root/lidar_system/servo_control/src/dynamic_tf_broadcaster.cpp:182:50:[m[K [01;31m[Kerror: [m[Kinvalid declarator before ‘[01m[Ktf_broadcaster_[m[K’
+[9.861s]   182 |   std::shared_ptr<tf2_ros::TransformBroadcaster> [01;31m[Ktf_broadcaster_[m[K;
+[9.861s]       |                                                  [01;31m[K^~~~~~~~~~~~~~~[m[K
+[9.934s] [01m[K/root/lidar_system/servo_control/src/dynamic_tf_broadcaster.cpp:198:1:[m[K [01;31m[Kerror: [m[Kexpected declaration before ‘[01m[K}[m[K’ token
+[9.935s]   198 | [01;31m[K}[m[K;
+[9.935s]       | [01;31m[K^[m[K
+[20.665s] make[2]: *** [CMakeFiles/dynamic_tf_broadcaster.dir/build.make:63: CMakeFiles/dynamic_tf_broadcaster.dir/src/dynamic_tf_broadcaster.cpp.o] Error 1
+[20.668s] make[1]: *** [CMakeFiles/Makefile2:136: CMakeFiles/dynamic_tf_broadcaster.dir/all] Error 2
+[20.672s] make: *** [Makefile:141: all] Error 2
+[20.675s] Invoked command in '/root/lidar_system/build/servo_control' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /root/lidar_system/build/servo_control -- -j4 -l4

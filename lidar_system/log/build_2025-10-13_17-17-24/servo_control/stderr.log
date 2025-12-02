@@ -1,0 +1,14 @@
+** WARNING ** io features related to openni will be disabled
+** WARNING ** io features related to openni2 will be disabled
+** WARNING ** io features related to pcap will be disabled
+** WARNING ** io features related to png will be disabled
+** WARNING ** io features related to libusb-1.0 will be disabled
+** WARNING ** visualization features related to openni will be disabled
+** WARNING ** visualization features related to openni2 will be disabled
+** WARNING ** people features related to openni will be disabled
+** WARNING ** people features related to openni2 will be disabled
+** WARNING ** people features related to pcap will be disabled
+** WARNING ** people features related to png will be disabled
+** WARNING ** people features related to libusb-1.0 will be disabled
+** WARNING ** people features related to openni will be disabled
+** WARNING ** people features related to openni2 will be disabled

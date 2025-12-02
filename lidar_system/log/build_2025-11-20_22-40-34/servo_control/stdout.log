@@ -1,0 +1,4 @@
+[35m[1mScanning dependencies of target dynamic_tf_broadcaster[0m
+[ 33%] Built target scan_sequence_node
+[ 50%] [32mBuilding CXX object CMakeFiles/dynamic_tf_broadcaster.dir/src/dynamic_tf_broadcaster.cpp.o[0m
+[ 83%] Built target lidar_pointcloud_node

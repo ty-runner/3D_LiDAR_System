@@ -1,0 +1,416 @@
+[0.000000] (-) TimerEvent: {}
+[0.000703] (rplidar_ros) JobQueued: {'identifier': 'rplidar_ros', 'dependencies': OrderedDict()}
+[0.000927] (servo_control) JobQueued: {'identifier': 'servo_control', 'dependencies': OrderedDict()}
+[0.001260] (rplidar_ros) JobStarted: {'identifier': 'rplidar_ros'}
+[0.071734] (servo_control) JobStarted: {'identifier': 'servo_control'}
+[0.097472] (-) TimerEvent: {}
+[0.124387] (rplidar_ros) JobProgress: {'identifier': 'rplidar_ros', 'progress': 'cmake'}
+[0.128519] (rplidar_ros) JobProgress: {'identifier': 'rplidar_ros', 'progress': 'build'}
+[0.132313] (rplidar_ros) Command: {'cmd': ['/usr/bin/cmake', '--build', '/root/lidar_system/build/rplidar_ros', '--', '-j4', '-l4'], 'cwd': '/root/lidar_system/build/rplidar_ros', 'env': OrderedDict([('HOSTNAME', 'ubuntu-desktop'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/aarch64-linux-gnu:/opt/ros/foxy/lib'), ('HOME', '/root'), ('OLDPWD', '/root/lidar_system/rplidar_ros'), ('ROS_PYTHON_VERSION', '3'), ('COLCON_PREFIX_PATH', '/root/lidar_system/install'), ('ROS_DISTRO', 'foxy'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm'), ('ROS_LOCALHOST_ONLY', '0'), ('QT_X11_NO_MITSHM', '1'), ('PATH', '/opt/ros/foxy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'), ('FASTRTPS_DEFAULT_PROFILES_FILE', '/fastdds.xml'), ('DISPLAY', ':0'), ('LANG', 'C.UTF-8'), ('RMW_IMPLEMENTATION', 'rmw_fastrtps_cpp'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('ROS_DOMAIN_ID', '0'), ('AMENT_PREFIX_PATH', '/root/lidar_system/install/servo_control:/root/lidar_system/install/rplidar_ros:/opt/ros/foxy'), ('PWD', '/root/lidar_system/build/rplidar_ros'), ('LC_ALL', 'C.UTF-8'), ('PYTHONPATH', '/root/lidar_system/install/servo_control/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/root/lidar_system/install/servo_control:/root/lidar_system/install/rplidar_ros:/opt/ros/foxy')]), 'shell': False}
+[0.155068] (servo_control) JobProgress: {'identifier': 'servo_control', 'progress': 'cmake'}
+[0.159821] (servo_control) JobProgress: {'identifier': 'servo_control', 'progress': 'build'}
+[0.162078] (servo_control) Command: {'cmd': ['/usr/bin/cmake', '--build', '/root/lidar_system/build/servo_control', '--', '-j4', '-l4'], 'cwd': '/root/lidar_system/build/servo_control', 'env': OrderedDict([('HOSTNAME', 'ubuntu-desktop'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/aarch64-linux-gnu:/opt/ros/foxy/lib'), ('HOME', '/root'), ('OLDPWD', '/root/lidar_system/rplidar_ros'), ('ROS_PYTHON_VERSION', '3'), ('COLCON_PREFIX_PATH', '/root/lidar_system/install'), ('ROS_DISTRO', 'foxy'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm'), ('ROS_LOCALHOST_ONLY', '0'), ('QT_X11_NO_MITSHM', '1'), ('PATH', '/opt/ros/foxy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'), ('FASTRTPS_DEFAULT_PROFILES_FILE', '/fastdds.xml'), ('DISPLAY', ':0'), ('LANG', 'C.UTF-8'), ('RMW_IMPLEMENTATION', 'rmw_fastrtps_cpp'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('ROS_DOMAIN_ID', '0'), ('AMENT_PREFIX_PATH', '/root/lidar_system/install/servo_control:/root/lidar_system/install/rplidar_ros:/opt/ros/foxy'), ('PWD', '/root/lidar_system/build/servo_control'), ('LC_ALL', 'C.UTF-8'), ('PYTHONPATH', '/root/lidar_system/install/servo_control/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/root/lidar_system/install/servo_control:/root/lidar_system/install/rplidar_ros:/opt/ros/foxy')]), 'shell': False}
+[0.197708] (-) TimerEvent: {}
+[0.298631] (-) TimerEvent: {}
+[0.399969] (-) TimerEvent: {}
+[0.500771] (-) TimerEvent: {}
+[0.562481] (servo_control) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target dynamic_tf_broadcaster\x1b[0m\n'}
+[0.600958] (-) TimerEvent: {}
+[0.702350] (-) TimerEvent: {}
+[0.803593] (-) TimerEvent: {}
+[0.815030] (rplidar_ros) StdoutLine: {'line': b'[  5%] Built target rplidar_client\n'}
+[0.838444] (rplidar_ros) StdoutLine: {'line': b'[ 52%] Built target rplidar_composition\n'}
+[0.854745] (servo_control) StdoutLine: {'line': b'[ 33%] Built target scan_sequence_node\n'}
+[0.903297] (servo_control) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/dynamic_tf_broadcaster.dir/src/dynamic_tf_broadcaster.cpp.o\x1b[0m\n'}
+[0.904750] (-) TimerEvent: {}
+[0.970768] (servo_control) StdoutLine: {'line': b'[ 83%] Built target lidar_pointcloud_node\n'}
+[1.005539] (-) TimerEvent: {}
+[1.090559] (rplidar_ros) StdoutLine: {'line': b'[100%] Built target rplidar_node\n'}
+[1.105736] (-) TimerEvent: {}
+[1.148903] (rplidar_ros) CommandEnded: {'returncode': 0}
+[1.208022] (-) TimerEvent: {}
+[1.311593] (-) TimerEvent: {}
+[1.412337] (-) TimerEvent: {}
+[1.514610] (-) TimerEvent: {}
+[1.616573] (-) TimerEvent: {}
+[1.634078] (rplidar_ros) JobProgress: {'identifier': 'rplidar_ros', 'progress': 'install'}
+[1.711495] (rplidar_ros) Command: {'cmd': ['/usr/bin/cmake', '--install', '/root/lidar_system/build/rplidar_ros'], 'cwd': '/root/lidar_system/build/rplidar_ros', 'env': OrderedDict([('HOSTNAME', 'ubuntu-desktop'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/aarch64-linux-gnu:/opt/ros/foxy/lib'), ('HOME', '/root'), ('OLDPWD', '/root/lidar_system/rplidar_ros'), ('ROS_PYTHON_VERSION', '3'), ('COLCON_PREFIX_PATH', '/root/lidar_system/install'), ('ROS_DISTRO', 'foxy'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm'), ('ROS_LOCALHOST_ONLY', '0'), ('QT_X11_NO_MITSHM', '1'), ('PATH', '/opt/ros/foxy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'), ('FASTRTPS_DEFAULT_PROFILES_FILE', '/fastdds.xml'), ('DISPLAY', ':0'), ('LANG', 'C.UTF-8'), ('RMW_IMPLEMENTATION', 'rmw_fastrtps_cpp'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('ROS_DOMAIN_ID', '0'), ('AMENT_PREFIX_PATH', '/root/lidar_system/install/servo_control:/root/lidar_system/install/rplidar_ros:/opt/ros/foxy'), ('PWD', '/root/lidar_system/build/rplidar_ros'), ('LC_ALL', 'C.UTF-8'), ('PYTHONPATH', '/root/lidar_system/install/servo_control/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/root/lidar_system/install/servo_control:/root/lidar_system/install/rplidar_ros:/opt/ros/foxy')]), 'shell': False}
+[1.717190] (-) TimerEvent: {}
+[1.752714] (rplidar_ros) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[1.754275] (rplidar_ros) StdoutLine: {'line': b'-- Up-to-date: /root/lidar_system/install/rplidar_ros/share/rplidar_ros/launch\n'}
+[1.755587] (rplidar_ros) StdoutLine: {'line': b'-- Up-to-date: /root/lidar_system/install/rplidar_ros/share/rplidar_ros/launch/rplidar_a3_launch.py\n'}
+[1.757733] (rplidar_ros) StdoutLine: {'line': b'-- Up-to-date: /root/lidar_system/install/rplidar_ros/share/rplidar_ros/launch/view_rplidar_a2m8_launch.py\n'}
+[1.758502] (rplidar_ros) StdoutLine: {'line': b'-- Up-to-date: /root/lidar_system/install/rplidar_ros/share/rplidar_ros/launch/view_rplidar_a2m7_launch.py\n'}
+[1.765536] (rplidar_ros) StdoutLine: {'line': b'-- Up-to-date: /root/lidar_system/install/rplidar_ros/share/rplidar_ros/launch/rplidar_s2_launch.py\n'}
+[1.766371] (rplidar_ros) StdoutLine: {'line': b'-- Up-to-date: /root/lidar_system/install/rplidar_ros/share/rplidar_ros/launch/rplidar_s1_tcp_launch.py\n'}
+[1.767017] (rplidar_ros) StdoutLine: {'line': b'-- Up-to-date: /root/lidar_system/install/rplidar_ros/share/rplidar_ros/launch/view_rplidar_a1_launch.py\n'}
+[1.767679] (rplidar_ros) StdoutLine: {'line': b'-- Up-to-date: /root/lidar_system/install/rplidar_ros/share/rplidar_ros/launch/rplidar_t1_launch.py\n'}
+[1.768366] (rplidar_ros) StdoutLine: {'line': b'-- Up-to-date: /root/lidar_system/install/rplidar_ros/share/rplidar_ros/launch/system_launch.py\n'}
+[1.768940] (rplidar_ros) StdoutLine: {'line': b'-- Up-to-date: /root/lidar_system/install/rplidar_ros/share/rplidar_ros/launch/rplidar_a1_launch.py\n'}
+[1.769592] (rplidar_ros) StdoutLine: {'line': b'-- Up-to-date: /root/lidar_system/install/rplidar_ros/share/rplidar_ros/launch/view_rplidar_s1_launch.py\n'}
+[1.770113] (rplidar_ros) StdoutLine: {'line': b'-- Up-to-date: /root/lidar_system/install/rplidar_ros/share/rplidar_ros/launch/view_rplidar_s2_launch.py\n'}
+[1.770620] (rplidar_ros) StdoutLine: {'line': b'-- Up-to-date: /root/lidar_system/install/rplidar_ros/share/rplidar_ros/launch/view_rplidar_s2e_launch.py\n'}
+[1.771211] (rplidar_ros) StdoutLine: {'line': b'-- Up-to-date: /root/lidar_system/install/rplidar_ros/share/rplidar_ros/launch/view_rplidar_a2m12_launch.py\n'}
+[1.771733] (rplidar_ros) StdoutLine: {'line': b'-- Up-to-date: /root/lidar_system/install/rplidar_ros/share/rplidar_ros/launch/rplidar_a2m7_launch.py\n'}
+[1.772218] (rplidar_ros) StdoutLine: {'line': b'-- Up-to-date: /root/lidar_system/install/rplidar_ros/share/rplidar_ros/launch/rplidar_s2e_launch.py\n'}
+[1.772719] (rplidar_ros) StdoutLine: {'line': b'-- Up-to-date: /root/lidar_system/install/rplidar_ros/share/rplidar_ros/launch/view_rplidar_s1_tcp_launch.py\n'}
+[1.773247] (rplidar_ros) StdoutLine: {'line': b'-- Up-to-date: /root/lidar_system/install/rplidar_ros/share/rplidar_ros/launch/rplidar_a2m12_launch.py\n'}
+[1.773763] (rplidar_ros) StdoutLine: {'line': b'-- Up-to-date: /root/lidar_system/install/rplidar_ros/share/rplidar_ros/launch/rplidar_s1_launch.py\n'}
+[1.774268] (rplidar_ros) StdoutLine: {'line': b'-- Up-to-date: /root/lidar_system/install/rplidar_ros/share/rplidar_ros/launch/__pycache__\n'}
+[1.774732] (rplidar_ros) StdoutLine: {'line': b'-- Installing: /root/lidar_system/install/rplidar_ros/share/rplidar_ros/launch/__pycache__/system_launch.cpython-38.pyc\n'}
+[1.775158] (rplidar_ros) StdoutLine: {'line': b'-- Up-to-date: /root/lidar_system/install/rplidar_ros/share/rplidar_ros/launch/rplidar_s3_launch.py\n'}
+[1.775550] (rplidar_ros) StdoutLine: {'line': b'-- Up-to-date: /root/lidar_system/install/rplidar_ros/share/rplidar_ros/launch/rplidar_a2m8_launch.py\n'}
+[1.775926] (rplidar_ros) StdoutLine: {'line': b'-- Up-to-date: /root/lidar_system/install/rplidar_ros/share/rplidar_ros/launch/view_rplidar_t1_launch.py\n'}
+[1.776315] (rplidar_ros) StdoutLine: {'line': b'-- Up-to-date: /root/lidar_system/install/rplidar_ros/share/rplidar_ros/launch/view_rplidar_a3_launch.py\n'}
+[1.776702] (rplidar_ros) StdoutLine: {'line': b'-- Up-to-date: /root/lidar_system/install/rplidar_ros/share/rplidar_ros/launch/rplidar_c1_launch.py\n'}
+[1.777158] (rplidar_ros) StdoutLine: {'line': b'-- Up-to-date: /root/lidar_system/install/rplidar_ros/share/rplidar_ros/launch/view_rplidar_s3_launch.py\n'}
+[1.777624] (rplidar_ros) StdoutLine: {'line': b'-- Up-to-date: /root/lidar_system/install/rplidar_ros/share/rplidar_ros/launch/view_rplidar_c1_launch.py\n'}
+[1.778032] (rplidar_ros) StdoutLine: {'line': b'-- Up-to-date: /root/lidar_system/install/rplidar_ros/share/rplidar_ros/rviz\n'}
+[1.778501] (rplidar_ros) StdoutLine: {'line': b'-- Up-to-date: /root/lidar_system/install/rplidar_ros/share/rplidar_ros/rviz/rplidar_ros.rviz\n'}
+[1.779014] (rplidar_ros) StdoutLine: {'line': b'-- Up-to-date: /root/lidar_system/install/rplidar_ros/lib/rplidar_ros/rplidar_node\n'}
+[1.779486] (rplidar_ros) StdoutLine: {'line': b'-- Up-to-date: /root/lidar_system/install/rplidar_ros/lib/rplidar_ros/rplidar_composition\n'}
+[1.780033] (rplidar_ros) StdoutLine: {'line': b'-- Up-to-date: /root/lidar_system/install/rplidar_ros/lib/rplidar_ros/rplidar_client\n'}
+[1.790548] (rplidar_ros) StdoutLine: {'line': b'-- Up-to-date: /root/lidar_system/install/rplidar_ros/share/ament_index/resource_index/package_run_dependencies/rplidar_ros\n'}
+[1.791680] (rplidar_ros) StdoutLine: {'line': b'-- Up-to-date: /root/lidar_system/install/rplidar_ros/share/ament_index/resource_index/parent_prefix_path/rplidar_ros\n'}
+[1.792721] (rplidar_ros) StdoutLine: {'line': b'-- Up-to-date: /root/lidar_system/install/rplidar_ros/share/rplidar_ros/environment/ament_prefix_path.sh\n'}
+[1.802838] (rplidar_ros) StdoutLine: {'line': b'-- Up-to-date: /root/lidar_system/install/rplidar_ros/share/rplidar_ros/environment/ament_prefix_path.dsv\n'}
+[1.809792] (rplidar_ros) StdoutLine: {'line': b'-- Up-to-date: /root/lidar_system/install/rplidar_ros/share/rplidar_ros/environment/path.sh\n'}
+[1.818229] (-) TimerEvent: {}
+[1.819081] (rplidar_ros) StdoutLine: {'line': b'-- Up-to-date: /root/lidar_system/install/rplidar_ros/share/rplidar_ros/environment/path.dsv\n'}
+[1.819889] (rplidar_ros) StdoutLine: {'line': b'-- Up-to-date: /root/lidar_system/install/rplidar_ros/share/rplidar_ros/local_setup.bash\n'}
+[1.820901] (rplidar_ros) StdoutLine: {'line': b'-- Up-to-date: /root/lidar_system/install/rplidar_ros/share/rplidar_ros/local_setup.sh\n'}
+[1.822083] (rplidar_ros) StdoutLine: {'line': b'-- Up-to-date: /root/lidar_system/install/rplidar_ros/share/rplidar_ros/local_setup.zsh\n'}
+[1.822706] (rplidar_ros) StdoutLine: {'line': b'-- Up-to-date: /root/lidar_system/install/rplidar_ros/share/rplidar_ros/local_setup.dsv\n'}
+[1.823245] (rplidar_ros) StdoutLine: {'line': b'-- Installing: /root/lidar_system/install/rplidar_ros/share/rplidar_ros/package.dsv\n'}
+[1.826331] (rplidar_ros) StdoutLine: {'line': b'-- Up-to-date: /root/lidar_system/install/rplidar_ros/share/ament_index/resource_index/packages/rplidar_ros\n'}
+[1.827484] (rplidar_ros) StdoutLine: {'line': b'-- Up-to-date: /root/lidar_system/install/rplidar_ros/share/rplidar_ros/cmake/ament_cmake_export_dependencies-extras.cmake\n'}
+[1.833830] (rplidar_ros) StdoutLine: {'line': b'-- Up-to-date: /root/lidar_system/install/rplidar_ros/share/rplidar_ros/cmake/ament_cmake_export_include_directories-extras.cmake\n'}
+[1.834744] (rplidar_ros) StdoutLine: {'line': b'-- Up-to-date: /root/lidar_system/install/rplidar_ros/share/rplidar_ros/cmake/rplidar_rosConfig.cmake\n'}
+[1.835262] (rplidar_ros) StdoutLine: {'line': b'-- Up-to-date: /root/lidar_system/install/rplidar_ros/share/rplidar_ros/cmake/rplidar_rosConfig-version.cmake\n'}
+[1.836022] (rplidar_ros) StdoutLine: {'line': b'-- Up-to-date: /root/lidar_system/install/rplidar_ros/share/rplidar_ros/package.xml\n'}
+[1.837473] (rplidar_ros) CommandEnded: {'returncode': 0}
+[1.927778] (-) TimerEvent: {}
+[2.032478] (-) TimerEvent: {}
+[2.140366] (-) TimerEvent: {}
+[2.243612] (-) TimerEvent: {}
+[2.349466] (-) TimerEvent: {}
+[2.453293] (-) TimerEvent: {}
+[2.577904] (-) TimerEvent: {}
+[2.650312] (rplidar_ros) JobEnded: {'identifier': 'rplidar_ros', 'rc': 0}
+[2.678095] (-) TimerEvent: {}
+[2.778771] (-) TimerEvent: {}
+[2.879417] (-) TimerEvent: {}
+[2.982483] (-) TimerEvent: {}
+[3.084535] (-) TimerEvent: {}
+[3.185331] (-) TimerEvent: {}
+[3.286041] (-) TimerEvent: {}
+[3.386737] (-) TimerEvent: {}
+[3.487594] (-) TimerEvent: {}
+[3.588534] (-) TimerEvent: {}
+[3.691284] (-) TimerEvent: {}
+[3.792149] (-) TimerEvent: {}
+[3.895160] (-) TimerEvent: {}
+[3.995849] (-) TimerEvent: {}
+[4.096559] (-) TimerEvent: {}
+[4.197674] (-) TimerEvent: {}
+[4.298498] (-) TimerEvent: {}
+[4.399666] (-) TimerEvent: {}
+[4.501356] (-) TimerEvent: {}
+[4.603112] (-) TimerEvent: {}
+[4.703848] (-) TimerEvent: {}
+[4.805572] (-) TimerEvent: {}
+[4.906837] (-) TimerEvent: {}
+[5.007538] (-) TimerEvent: {}
+[5.108322] (-) TimerEvent: {}
+[5.210030] (-) TimerEvent: {}
+[5.310694] (-) TimerEvent: {}
+[5.413159] (-) TimerEvent: {}
+[5.514939] (-) TimerEvent: {}
+[5.617092] (-) TimerEvent: {}
+[5.717949] (-) TimerEvent: {}
+[5.818807] (-) TimerEvent: {}
+[5.919879] (-) TimerEvent: {}
+[6.020602] (-) TimerEvent: {}
+[6.122576] (-) TimerEvent: {}
+[6.223425] (-) TimerEvent: {}
+[6.324246] (-) TimerEvent: {}
+[6.425128] (-) TimerEvent: {}
+[6.525922] (-) TimerEvent: {}
+[6.626989] (-) TimerEvent: {}
+[6.728279] (-) TimerEvent: {}
+[6.829080] (-) TimerEvent: {}
+[6.929927] (-) TimerEvent: {}
+[7.030898] (-) TimerEvent: {}
+[7.131577] (-) TimerEvent: {}
+[7.232300] (-) TimerEvent: {}
+[7.333393] (-) TimerEvent: {}
+[7.435184] (-) TimerEvent: {}
+[7.535856] (-) TimerEvent: {}
+[7.636690] (-) TimerEvent: {}
+[7.737422] (-) TimerEvent: {}
+[7.838485] (-) TimerEvent: {}
+[7.939232] (-) TimerEvent: {}
+[8.040059] (-) TimerEvent: {}
+[8.140823] (-) TimerEvent: {}
+[8.241540] (-) TimerEvent: {}
+[8.342694] (-) TimerEvent: {}
+[8.443347] (-) TimerEvent: {}
+[8.544138] (-) TimerEvent: {}
+[8.646572] (-) TimerEvent: {}
+[8.748272] (-) TimerEvent: {}
+[8.849442] (-) TimerEvent: {}
+[8.950123] (-) TimerEvent: {}
+[9.050823] (-) TimerEvent: {}
+[9.151568] (-) TimerEvent: {}
+[9.253511] (-) TimerEvent: {}
+[9.279724] (servo_control) StderrLine: {'line': b'\x1b[01m\x1b[K/root/lidar_system/servo_control/src/dynamic_tf_broadcaster.cpp:153:5:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kexpected unqualified-id before \xe2\x80\x98\x1b[01m\x1b[Kif\x1b[m\x1b[K\xe2\x80\x99\n'}
+[9.280626] (servo_control) StderrLine: {'line': b'  153 |     \x1b[01;31m\x1b[Kif\x1b[m\x1b[K (last_stamp_.seconds() == 0 && last_stamp_.nanoseconds() == 0) {\n'}
+[9.281307] (servo_control) StderrLine: {'line': b'      |     \x1b[01;31m\x1b[K^~\x1b[m\x1b[K\n'}
+[9.282273] (servo_control) StderrLine: {'line': b'\x1b[01m\x1b[K/root/lidar_system/servo_control/src/dynamic_tf_broadcaster.cpp:155:7:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kexpected unqualified-id before \xe2\x80\x98\x1b[01m\x1b[Kelse\x1b[m\x1b[K\xe2\x80\x99\n'}
+[9.283195] (servo_control) StderrLine: {'line': b'  155 |     } \x1b[01;31m\x1b[Kelse\x1b[m\x1b[K {\n'}
+[9.284317] (servo_control) StderrLine: {'line': b'      |       \x1b[01;31m\x1b[K^~~~\x1b[m\x1b[K\n'}
+[9.288488] (servo_control) StderrLine: {'line': b'\x1b[01m\x1b[K/root/lidar_system/servo_control/src/dynamic_tf_broadcaster.cpp:158:5:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kt\x1b[m\x1b[K\xe2\x80\x99 does not name a type; did you mean \xe2\x80\x98\x1b[01m\x1b[Ktm\x1b[m\x1b[K\xe2\x80\x99?\n'}
+[9.289090] (servo_control) StderrLine: {'line': b'  158 |     \x1b[01;31m\x1b[Kt\x1b[m\x1b[K.header.frame_id = parent_frame_;\n'}
+[9.289734] (servo_control) StderrLine: {'line': b'      |     \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[9.290278] (servo_control) StderrLine: {'line': b'      |     \x1b[32m\x1b[Ktm\x1b[m\x1b[K\n'}
+[9.291596] (servo_control) StderrLine: {'line': b'\x1b[01m\x1b[K/root/lidar_system/servo_control/src/dynamic_tf_broadcaster.cpp:159:5:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kt\x1b[m\x1b[K\xe2\x80\x99 does not name a type; did you mean \xe2\x80\x98\x1b[01m\x1b[Ktm\x1b[m\x1b[K\xe2\x80\x99?\n'}
+[9.292295] (servo_control) StderrLine: {'line': b'  159 |     \x1b[01;31m\x1b[Kt\x1b[m\x1b[K.child_frame_id  = child_frame_;\n'}
+[9.292922] (servo_control) StderrLine: {'line': b'      |     \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[9.293696] (servo_control) StderrLine: {'line': b'      |     \x1b[32m\x1b[Ktm\x1b[m\x1b[K\n'}
+[9.297961] (servo_control) StderrLine: {'line': b'\x1b[01m\x1b[K/root/lidar_system/servo_control/src/dynamic_tf_broadcaster.cpp:162:5:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kt\x1b[m\x1b[K\xe2\x80\x99 does not name a type; did you mean \xe2\x80\x98\x1b[01m\x1b[Ktm\x1b[m\x1b[K\xe2\x80\x99?\n'}
+[9.298668] (servo_control) StderrLine: {'line': b'  162 |     \x1b[01;31m\x1b[Kt\x1b[m\x1b[K.transform.translation.x = px_ + offset_x_;\n'}
+[9.299189] (servo_control) StderrLine: {'line': b'      |     \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[9.299699] (servo_control) StderrLine: {'line': b'      |     \x1b[32m\x1b[Ktm\x1b[m\x1b[K\n'}
+[9.304119] (servo_control) StderrLine: {'line': b'\x1b[01m\x1b[K/root/lidar_system/servo_control/src/dynamic_tf_broadcaster.cpp:163:5:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kt\x1b[m\x1b[K\xe2\x80\x99 does not name a type; did you mean \xe2\x80\x98\x1b[01m\x1b[Ktm\x1b[m\x1b[K\xe2\x80\x99?\n'}
+[9.307400] (servo_control) StderrLine: {'line': b'  163 |     \x1b[01;31m\x1b[Kt\x1b[m\x1b[K.transform.translation.y = py_ + offset_y_;\n'}
+[9.308075] (servo_control) StderrLine: {'line': b'      |     \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[9.309189] (servo_control) StderrLine: {'line': b'      |     \x1b[32m\x1b[Ktm\x1b[m\x1b[K\n'}
+[9.314184] (servo_control) StderrLine: {'line': b'\x1b[01m\x1b[K/root/lidar_system/servo_control/src/dynamic_tf_broadcaster.cpp:164:5:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kt\x1b[m\x1b[K\xe2\x80\x99 does not name a type; did you mean \xe2\x80\x98\x1b[01m\x1b[Ktm\x1b[m\x1b[K\xe2\x80\x99?\n'}
+[9.314925] (servo_control) StderrLine: {'line': b'  164 |     \x1b[01;31m\x1b[Kt\x1b[m\x1b[K.transform.translation.z = pz_ + offset_z_;\n'}
+[9.315468] (servo_control) StderrLine: {'line': b'      |     \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[9.315966] (servo_control) StderrLine: {'line': b'      |     \x1b[32m\x1b[Ktm\x1b[m\x1b[K\n'}
+[9.317374] (servo_control) StderrLine: {'line': b'\x1b[01m\x1b[K/root/lidar_system/servo_control/src/dynamic_tf_broadcaster.cpp:170:5:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kq\x1b[m\x1b[K\xe2\x80\x99 does not name a type\n'}
+[9.317976] (servo_control) StderrLine: {'line': b'  170 |     \x1b[01;31m\x1b[Kq\x1b[m\x1b[K.setRPY(0.0, tilt_rad, pan_rad);\n'}
+[9.318495] (servo_control) StderrLine: {'line': b'      |     \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[9.323946] (servo_control) StderrLine: {'line': b'\x1b[01m\x1b[K/root/lidar_system/servo_control/src/dynamic_tf_broadcaster.cpp:171:5:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kq\x1b[m\x1b[K\xe2\x80\x99 does not name a type\n'}
+[9.324861] (servo_control) StderrLine: {'line': b'  171 |     \x1b[01;31m\x1b[Kq\x1b[m\x1b[K.normalize();\n'}
+[9.328827] (servo_control) StderrLine: {'line': b'      |     \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[9.330584] (servo_control) StderrLine: {'line': b'\x1b[01m\x1b[K/root/lidar_system/servo_control/src/dynamic_tf_broadcaster.cpp:173:5:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kt\x1b[m\x1b[K\xe2\x80\x99 does not name a type; did you mean \xe2\x80\x98\x1b[01m\x1b[Ktm\x1b[m\x1b[K\xe2\x80\x99?\n'}
+[9.331166] (servo_control) StderrLine: {'line': b'  173 |     \x1b[01;31m\x1b[Kt\x1b[m\x1b[K.transform.rotation.x = q.x();\n'}
+[9.331676] (servo_control) StderrLine: {'line': b'      |     \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[9.332142] (servo_control) StderrLine: {'line': b'      |     \x1b[32m\x1b[Ktm\x1b[m\x1b[K\n'}
+[9.336646] (servo_control) StderrLine: {'line': b'\x1b[01m\x1b[K/root/lidar_system/servo_control/src/dynamic_tf_broadcaster.cpp:174:5:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kt\x1b[m\x1b[K\xe2\x80\x99 does not name a type; did you mean \xe2\x80\x98\x1b[01m\x1b[Ktm\x1b[m\x1b[K\xe2\x80\x99?\n'}
+[9.339265] (servo_control) StderrLine: {'line': b'  174 |     \x1b[01;31m\x1b[Kt\x1b[m\x1b[K.transform.rotation.y = q.y();\n'}
+[9.339852] (servo_control) StderrLine: {'line': b'      |     \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[9.340334] (servo_control) StderrLine: {'line': b'      |     \x1b[32m\x1b[Ktm\x1b[m\x1b[K\n'}
+[9.343166] (servo_control) StderrLine: {'line': b'\x1b[01m\x1b[K/root/lidar_system/servo_control/src/dynamic_tf_broadcaster.cpp:175:5:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kt\x1b[m\x1b[K\xe2\x80\x99 does not name a type; did you mean \xe2\x80\x98\x1b[01m\x1b[Ktm\x1b[m\x1b[K\xe2\x80\x99?\n'}
+[9.344078] (servo_control) StderrLine: {'line': b'  175 |     \x1b[01;31m\x1b[Kt\x1b[m\x1b[K.transform.rotation.z = q.z();\n'}
+[9.345930] (servo_control) StderrLine: {'line': b'      |     \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[9.346517] (servo_control) StderrLine: {'line': b'      |     \x1b[32m\x1b[Ktm\x1b[m\x1b[K\n'}
+[9.351088] (servo_control) StderrLine: {'line': b'\x1b[01m\x1b[K/root/lidar_system/servo_control/src/dynamic_tf_broadcaster.cpp:176:5:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kt\x1b[m\x1b[K\xe2\x80\x99 does not name a type; did you mean \xe2\x80\x98\x1b[01m\x1b[Ktm\x1b[m\x1b[K\xe2\x80\x99?\n'}
+[9.351802] (servo_control) StderrLine: {'line': b'  176 |     \x1b[01;31m\x1b[Kt\x1b[m\x1b[K.transform.rotation.w = q.w();\n'}
+[9.352350] (servo_control) StderrLine: {'line': b'      |     \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[9.352838] (servo_control) StderrLine: {'line': b'      |     \x1b[32m\x1b[Ktm\x1b[m\x1b[K\n'}
+[9.353534] (-) TimerEvent: {}
+[9.368371] (servo_control) StderrLine: {'line': b'\x1b[01m\x1b[K/root/lidar_system/servo_control/src/dynamic_tf_broadcaster.cpp:178:5:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Ktf_broadcaster_\x1b[m\x1b[K\xe2\x80\x99 does not name a type\n'}
+[9.369725] (servo_control) StderrLine: {'line': b'  178 |     \x1b[01;31m\x1b[Ktf_broadcaster_\x1b[m\x1b[K->sendTransform(t);\n'}
+[9.370309] (servo_control) StderrLine: {'line': b'      |     \x1b[01;31m\x1b[K^~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[9.377683] (servo_control) StderrLine: {'line': b'\x1b[01m\x1b[K/root/lidar_system/servo_control/src/dynamic_tf_broadcaster.cpp:167:29:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kpan_deg_\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope\n'}
+[9.378735] (servo_control) StderrLine: {'line': b'  167 |     const double pan_rad  = \x1b[01;31m\x1b[Kpan_deg_\x1b[m\x1b[K  * M_PI / 180.0;\n'}
+[9.379366] (servo_control) StderrLine: {'line': b'      |                             \x1b[01;31m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[9.390088] (servo_control) StderrLine: {'line': b'\x1b[01m\x1b[K/root/lidar_system/servo_control/src/dynamic_tf_broadcaster.cpp:168:29:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Ktilt_deg_\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope\n'}
+[9.390744] (servo_control) StderrLine: {'line': b'  168 |     const double tilt_rad = \x1b[01;31m\x1b[Ktilt_deg_\x1b[m\x1b[K * M_PI / 180.0;\n'}
+[9.391176] (servo_control) StderrLine: {'line': b'      |                             \x1b[01;31m\x1b[K^~~~~~~~~\x1b[m\x1b[K\n'}
+[9.391655] (servo_control) StderrLine: {'line': b'\x1b[01m\x1b[K/root/lidar_system/servo_control/src/dynamic_tf_broadcaster.cpp:\x1b[m\x1b[K In constructor \xe2\x80\x98\x1b[01m\x1b[KDynamicTFBroadcaster::DynamicTFBroadcaster()\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[9.392087] (servo_control) StderrLine: {'line': b'\x1b[01m\x1b[K/root/lidar_system/servo_control/src/dynamic_tf_broadcaster.cpp:88:5:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kclass \xe2\x80\x98\x1b[01m\x1b[KDynamicTFBroadcaster\x1b[m\x1b[K\xe2\x80\x99 does not have any field named \xe2\x80\x98\x1b[01m\x1b[Khave_pose_\x1b[m\x1b[K\xe2\x80\x99\n'}
+[9.392508] (servo_control) StderrLine: {'line': b'   88 |     \x1b[01;31m\x1b[Khave_pose_\x1b[m\x1b[K(false),\n'}
+[9.392931] (servo_control) StderrLine: {'line': b'      |     \x1b[01;31m\x1b[K^~~~~~~~~~\x1b[m\x1b[K\n'}
+[9.401677] (servo_control) StderrLine: {'line': b'\x1b[01m\x1b[K/root/lidar_system/servo_control/src/dynamic_tf_broadcaster.cpp:89:5:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kclass \xe2\x80\x98\x1b[01m\x1b[KDynamicTFBroadcaster\x1b[m\x1b[K\xe2\x80\x99 does not have any field named \xe2\x80\x98\x1b[01m\x1b[Kpan_deg_\x1b[m\x1b[K\xe2\x80\x99\n'}
+[9.407880] (servo_control) StderrLine: {'line': b'   89 |     \x1b[01;31m\x1b[Kpan_deg_\x1b[m\x1b[K(0.0), tilt_deg_(0.0)\n'}
+[9.408484] (servo_control) StderrLine: {'line': b'      |     \x1b[01;31m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[9.409941] (servo_control) StderrLine: {'line': b'\x1b[01m\x1b[K/root/lidar_system/servo_control/src/dynamic_tf_broadcaster.cpp:89:20:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kclass \xe2\x80\x98\x1b[01m\x1b[KDynamicTFBroadcaster\x1b[m\x1b[K\xe2\x80\x99 does not have any field named \xe2\x80\x98\x1b[01m\x1b[Ktilt_deg_\x1b[m\x1b[K\xe2\x80\x99\n'}
+[9.410751] (servo_control) StderrLine: {'line': b'   89 |     pan_deg_(0.0), \x1b[01;31m\x1b[Ktilt_deg_\x1b[m\x1b[K(0.0)\n'}
+[9.411376] (servo_control) StderrLine: {'line': b'      |                    \x1b[01;31m\x1b[K^~~~~~~~~\x1b[m\x1b[K\n'}
+[9.419523] (servo_control) StderrLine: {'line': b'\x1b[01m\x1b[K/root/lidar_system/servo_control/src/dynamic_tf_broadcaster.cpp:92:5:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kparent_frame_\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope\n'}
+[9.420261] (servo_control) StderrLine: {'line': b'   92 |     \x1b[01;31m\x1b[Kparent_frame_\x1b[m\x1b[K = this->declare_parameter<std::string>("parent_frame", "base_link"); // or "map"\n'}
+[9.420813] (servo_control) StderrLine: {'line': b'      |     \x1b[01;31m\x1b[K^~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[9.453768] (-) TimerEvent: {}
+[9.461394] (servo_control) StderrLine: {'line': b'\x1b[01m\x1b[K/root/lidar_system/servo_control/src/dynamic_tf_broadcaster.cpp:93:5:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kchild_frame_\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope\n'}
+[9.464435] (servo_control) StderrLine: {'line': b'   93 |     \x1b[01;31m\x1b[Kchild_frame_\x1b[m\x1b[K  = this->declare_parameter<std::string>("child_frame",  "laser_frame");\n'}
+[9.465307] (servo_control) StderrLine: {'line': b'      |     \x1b[01;31m\x1b[K^~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[9.474026] (servo_control) StderrLine: {'line': b'\x1b[01m\x1b[K/root/lidar_system/servo_control/src/dynamic_tf_broadcaster.cpp:95:5:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Koffset_x_\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope; did you mean \xe2\x80\x98\x1b[01m\x1b[Koffsetof\x1b[m\x1b[K\xe2\x80\x99?\n'}
+[9.474730] (servo_control) StderrLine: {'line': b'   95 |     \x1b[01;31m\x1b[Koffset_x_\x1b[m\x1b[K = this->declare_parameter<double>("offset_x", 0.0);\n'}
+[9.475261] (servo_control) StderrLine: {'line': b'      |     \x1b[01;31m\x1b[K^~~~~~~~~\x1b[m\x1b[K\n'}
+[9.475808] (servo_control) StderrLine: {'line': b'      |     \x1b[32m\x1b[Koffsetof\x1b[m\x1b[K\n'}
+[9.496375] (servo_control) StderrLine: {'line': b'\x1b[01m\x1b[K/root/lidar_system/servo_control/src/dynamic_tf_broadcaster.cpp:96:5:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Koffset_y_\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope; did you mean \xe2\x80\x98\x1b[01m\x1b[Koffsetof\x1b[m\x1b[K\xe2\x80\x99?\n'}
+[9.497195] (servo_control) StderrLine: {'line': b'   96 |     \x1b[01;31m\x1b[Koffset_y_\x1b[m\x1b[K = this->declare_parameter<double>("offset_y", 0.0);\n'}
+[9.497783] (servo_control) StderrLine: {'line': b'      |     \x1b[01;31m\x1b[K^~~~~~~~~\x1b[m\x1b[K\n'}
+[9.498815] (servo_control) StderrLine: {'line': b'      |     \x1b[32m\x1b[Koffsetof\x1b[m\x1b[K\n'}
+[9.508857] (servo_control) StderrLine: {'line': b'\x1b[01m\x1b[K/root/lidar_system/servo_control/src/dynamic_tf_broadcaster.cpp:97:5:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Koffset_z_\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope; did you mean \xe2\x80\x98\x1b[01m\x1b[Koffsetof\x1b[m\x1b[K\xe2\x80\x99?\n'}
+[9.509638] (servo_control) StderrLine: {'line': b'   97 |     \x1b[01;31m\x1b[Koffset_z_\x1b[m\x1b[K = this->declare_parameter<double>("offset_z", 0.0);\n'}
+[9.510205] (servo_control) StderrLine: {'line': b'      |     \x1b[01;31m\x1b[K^~~~~~~~~\x1b[m\x1b[K\n'}
+[9.510773] (servo_control) StderrLine: {'line': b'      |     \x1b[32m\x1b[Koffsetof\x1b[m\x1b[K\n'}
+[9.523480] (servo_control) StderrLine: {'line': b'\x1b[01m\x1b[K/root/lidar_system/servo_control/src/dynamic_tf_broadcaster.cpp:101:5:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Ktf_broadcaster_\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope\n'}
+[9.524183] (servo_control) StderrLine: {'line': b'  101 |     \x1b[01;31m\x1b[Ktf_broadcaster_\x1b[m\x1b[K = std::make_shared<tf2_ros::TransformBroadcaster>(this);\n'}
+[9.524764] (servo_control) StderrLine: {'line': b'      |     \x1b[01;31m\x1b[K^~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[9.552703] (servo_control) StderrLine: {'line': b'\x1b[01m\x1b[K/root/lidar_system/servo_control/src/dynamic_tf_broadcaster.cpp:104:5:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kpose_sub_\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope; did you mean \xe2\x80\x98\x1b[01m\x1b[Kpose_cb\x1b[m\x1b[K\xe2\x80\x99?\n'}
+[9.553502] (servo_control) StderrLine: {'line': b'  104 |     \x1b[01;31m\x1b[Kpose_sub_\x1b[m\x1b[K = this->create_subscription<geometry_msgs::msg::PoseStamped>(\n'}
+[9.554055] (-) TimerEvent: {}
+[9.556001] (servo_control) StderrLine: {'line': b'      |     \x1b[01;31m\x1b[K^~~~~~~~~\x1b[m\x1b[K\n'}
+[9.557282] (servo_control) StderrLine: {'line': b'      |     \x1b[32m\x1b[Kpose_cb\x1b[m\x1b[K\n'}
+[9.654300] (-) TimerEvent: {}
+[9.682394] (servo_control) StderrLine: {'line': b'\x1b[01m\x1b[K/root/lidar_system/servo_control/src/dynamic_tf_broadcaster.cpp:108:5:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kangles_sub_\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope; did you mean \xe2\x80\x98\x1b[01m\x1b[Kangles_cb\x1b[m\x1b[K\xe2\x80\x99?\n'}
+[9.683554] (servo_control) StderrLine: {'line': b'  108 |     \x1b[01;31m\x1b[Kangles_sub_\x1b[m\x1b[K = this->create_subscription<std_msgs::msg::Float32MultiArray>(\n'}
+[9.684267] (servo_control) StderrLine: {'line': b'      |     \x1b[01;31m\x1b[K^~~~~~~~~~~\x1b[m\x1b[K\n'}
+[9.684708] (servo_control) StderrLine: {'line': b'      |     \x1b[32m\x1b[Kangles_cb\x1b[m\x1b[K\n'}
+[9.754478] (-) TimerEvent: {}
+[9.759582] (servo_control) StderrLine: {'line': b'\x1b[01m\x1b[K/root/lidar_system/servo_control/src/dynamic_tf_broadcaster.cpp:114:5:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Ktimer_\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope; did you mean \xe2\x80\x98\x1b[01m\x1b[Ktimer_t\x1b[m\x1b[K\xe2\x80\x99?\n'}
+[9.761288] (servo_control) StderrLine: {'line': b'  114 |     \x1b[01;31m\x1b[Ktimer_\x1b[m\x1b[K = this->create_wall_timer(\n'}
+[9.762067] (servo_control) StderrLine: {'line': b'      |     \x1b[01;31m\x1b[K^~~~~~\x1b[m\x1b[K\n'}
+[9.762574] (servo_control) StderrLine: {'line': b'      |     \x1b[32m\x1b[Ktimer_t\x1b[m\x1b[K\n'}
+[9.846084] (servo_control) StderrLine: {'line': b'\x1b[01m\x1b[K/root/lidar_system/servo_control/src/dynamic_tf_broadcaster.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kvoid DynamicTFBroadcaster::pose_cb(geometry_msgs::msg::PoseStamped_<std::allocator<void> >::SharedPtr)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[9.846834] (servo_control) StderrLine: {'line': b'\x1b[01m\x1b[K/root/lidar_system/servo_control/src/dynamic_tf_broadcaster.cpp:126:5:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kpx_\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope\n'}
+[9.847340] (servo_control) StderrLine: {'line': b'  126 |     \x1b[01;31m\x1b[Kpx_\x1b[m\x1b[K = msg->pose.position.x;\n'}
+[9.847831] (servo_control) StderrLine: {'line': b'      |     \x1b[01;31m\x1b[K^~~\x1b[m\x1b[K\n'}
+[9.853686] (servo_control) StderrLine: {'line': b'\x1b[01m\x1b[K/root/lidar_system/servo_control/src/dynamic_tf_broadcaster.cpp:127:5:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kpy_\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope\n'}
+[9.854392] (servo_control) StderrLine: {'line': b'  127 |     \x1b[01;31m\x1b[Kpy_\x1b[m\x1b[K = msg->pose.position.y;\n'}
+[9.854937] (-) TimerEvent: {}
+[9.855772] (servo_control) StderrLine: {'line': b'      |     \x1b[01;31m\x1b[K^~~\x1b[m\x1b[K\n'}
+[9.861248] (servo_control) StderrLine: {'line': b'\x1b[01m\x1b[K/root/lidar_system/servo_control/src/dynamic_tf_broadcaster.cpp:128:5:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kpz_\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope\n'}
+[9.861919] (servo_control) StderrLine: {'line': b'  128 |     \x1b[01;31m\x1b[Kpz_\x1b[m\x1b[K = msg->pose.position.z;\n'}
+[9.863168] (servo_control) StderrLine: {'line': b'      |     \x1b[01;31m\x1b[K^~~\x1b[m\x1b[K\n'}
+[9.875155] (servo_control) StderrLine: {'line': b'\x1b[01m\x1b[K/root/lidar_system/servo_control/src/dynamic_tf_broadcaster.cpp:129:5:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Klast_stamp_\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope\n'}
+[9.875866] (servo_control) StderrLine: {'line': b'  129 |     \x1b[01;31m\x1b[Klast_stamp_\x1b[m\x1b[K = msg->header.stamp;\n'}
+[9.876347] (servo_control) StderrLine: {'line': b'      |     \x1b[01;31m\x1b[K^~~~~~~~~~~\x1b[m\x1b[K\n'}
+[9.887468] (servo_control) StderrLine: {'line': b'\x1b[01m\x1b[K/root/lidar_system/servo_control/src/dynamic_tf_broadcaster.cpp:130:5:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Khave_pose_\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope\n'}
+[9.888229] (servo_control) StderrLine: {'line': b'  130 |     \x1b[01;31m\x1b[Khave_pose_\x1b[m\x1b[K = true;\n'}
+[9.888711] (servo_control) StderrLine: {'line': b'      |     \x1b[01;31m\x1b[K^~~~~~~~~~\x1b[m\x1b[K\n'}
+[9.920863] (servo_control) StderrLine: {'line': b'\x1b[01m\x1b[K/root/lidar_system/servo_control/src/dynamic_tf_broadcaster.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kvoid DynamicTFBroadcaster::angles_cb(std_msgs::msg::Float32MultiArray_<std::allocator<void> >::SharedPtr)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[9.921680] (servo_control) StderrLine: {'line': b'\x1b[01m\x1b[K/root/lidar_system/servo_control/src/dynamic_tf_broadcaster.cpp:139:5:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kpan_deg_\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope\n'}
+[9.922198] (servo_control) StderrLine: {'line': b'  139 |     \x1b[01;31m\x1b[Kpan_deg_\x1b[m\x1b[K  = msg->data[0];\n'}
+[9.922651] (servo_control) StderrLine: {'line': b'      |     \x1b[01;31m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[9.932603] (servo_control) StderrLine: {'line': b'\x1b[01m\x1b[K/root/lidar_system/servo_control/src/dynamic_tf_broadcaster.cpp:140:5:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Ktilt_deg_\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope\n'}
+[9.934264] (servo_control) StderrLine: {'line': b'  140 |     \x1b[01;31m\x1b[Ktilt_deg_\x1b[m\x1b[K = msg->data[1];\n'}
+[9.935616] (servo_control) StderrLine: {'line': b'      |     \x1b[01;31m\x1b[K^~~~~~~~~\x1b[m\x1b[K\n'}
+[9.936518] (servo_control) StderrLine: {'line': b'\x1b[01m\x1b[K/root/lidar_system/servo_control/src/dynamic_tf_broadcaster.cpp:\x1b[m\x1b[K At global scope:\n'}
+[9.936944] (servo_control) StderrLine: {'line': b'\x1b[01m\x1b[K/root/lidar_system/servo_control/src/dynamic_tf_broadcaster.cpp:182:50:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kinvalid declarator before \xe2\x80\x98\x1b[01m\x1b[Ktf_broadcaster_\x1b[m\x1b[K\xe2\x80\x99\n'}
+[9.937427] (servo_control) StderrLine: {'line': b'  182 |   std::shared_ptr<tf2_ros::TransformBroadcaster> \x1b[01;31m\x1b[Ktf_broadcaster_\x1b[m\x1b[K;\n'}
+[9.937900] (servo_control) StderrLine: {'line': b'      |                                                  \x1b[01;31m\x1b[K^~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[9.955421] (-) TimerEvent: {}
+[10.010895] (servo_control) StderrLine: {'line': b'\x1b[01m\x1b[K/root/lidar_system/servo_control/src/dynamic_tf_broadcaster.cpp:198:1:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kexpected declaration before \xe2\x80\x98\x1b[01m\x1b[K}\x1b[m\x1b[K\xe2\x80\x99 token\n'}
+[10.011502] (servo_control) StderrLine: {'line': b'  198 | \x1b[01;31m\x1b[K}\x1b[m\x1b[K;\n'}
+[10.011985] (servo_control) StderrLine: {'line': b'      | \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[10.055600] (-) TimerEvent: {}
+[10.156290] (-) TimerEvent: {}
+[10.257152] (-) TimerEvent: {}
+[10.361313] (-) TimerEvent: {}
+[10.462275] (-) TimerEvent: {}
+[10.563748] (-) TimerEvent: {}
+[10.664591] (-) TimerEvent: {}
+[10.765360] (-) TimerEvent: {}
+[10.866046] (-) TimerEvent: {}
+[10.966710] (-) TimerEvent: {}
+[11.068330] (-) TimerEvent: {}
+[11.169203] (-) TimerEvent: {}
+[11.269913] (-) TimerEvent: {}
+[11.370680] (-) TimerEvent: {}
+[11.472392] (-) TimerEvent: {}
+[11.573208] (-) TimerEvent: {}
+[11.674174] (-) TimerEvent: {}
+[11.775059] (-) TimerEvent: {}
+[11.876520] (-) TimerEvent: {}
+[11.980154] (-) TimerEvent: {}
+[12.081650] (-) TimerEvent: {}
+[12.182818] (-) TimerEvent: {}
+[12.284655] (-) TimerEvent: {}
+[12.386193] (-) TimerEvent: {}
+[12.487751] (-) TimerEvent: {}
+[12.589703] (-) TimerEvent: {}
+[12.690411] (-) TimerEvent: {}
+[12.791927] (-) TimerEvent: {}
+[12.896597] (-) TimerEvent: {}
+[13.000119] (-) TimerEvent: {}
+[13.102034] (-) TimerEvent: {}
+[13.204534] (-) TimerEvent: {}
+[13.306634] (-) TimerEvent: {}
+[13.407296] (-) TimerEvent: {}
+[13.508059] (-) TimerEvent: {}
+[13.609601] (-) TimerEvent: {}
+[13.710296] (-) TimerEvent: {}
+[13.811022] (-) TimerEvent: {}
+[13.912070] (-) TimerEvent: {}
+[14.012833] (-) TimerEvent: {}
+[14.113552] (-) TimerEvent: {}
+[14.215122] (-) TimerEvent: {}
+[14.317717] (-) TimerEvent: {}
+[14.418487] (-) TimerEvent: {}
+[14.519468] (-) TimerEvent: {}
+[14.620886] (-) TimerEvent: {}
+[14.722191] (-) TimerEvent: {}
+[14.823794] (-) TimerEvent: {}
+[14.925410] (-) TimerEvent: {}
+[15.026452] (-) TimerEvent: {}
+[15.127456] (-) TimerEvent: {}
+[15.229018] (-) TimerEvent: {}
+[15.329942] (-) TimerEvent: {}
+[15.434197] (-) TimerEvent: {}
+[15.537466] (-) TimerEvent: {}
+[15.638226] (-) TimerEvent: {}
+[15.739672] (-) TimerEvent: {}
+[15.842197] (-) TimerEvent: {}
+[15.943571] (-) TimerEvent: {}
+[16.045196] (-) TimerEvent: {}
+[16.147929] (-) TimerEvent: {}
+[16.248637] (-) TimerEvent: {}
+[16.349678] (-) TimerEvent: {}
+[16.450775] (-) TimerEvent: {}
+[16.552123] (-) TimerEvent: {}
+[16.653739] (-) TimerEvent: {}
+[16.756187] (-) TimerEvent: {}
+[16.857025] (-) TimerEvent: {}
+[16.957761] (-) TimerEvent: {}
+[17.061662] (-) TimerEvent: {}
+[17.162641] (-) TimerEvent: {}
+[17.263611] (-) TimerEvent: {}
+[17.364274] (-) TimerEvent: {}
+[17.466145] (-) TimerEvent: {}
+[17.567077] (-) TimerEvent: {}
+[17.668255] (-) TimerEvent: {}
+[17.769375] (-) TimerEvent: {}
+[17.870885] (-) TimerEvent: {}
+[17.971889] (-) TimerEvent: {}
+[18.073130] (-) TimerEvent: {}
+[18.173791] (-) TimerEvent: {}
+[18.274889] (-) TimerEvent: {}
+[18.375897] (-) TimerEvent: {}
+[18.476842] (-) TimerEvent: {}
+[18.578228] (-) TimerEvent: {}
+[18.678969] (-) TimerEvent: {}
+[18.779630] (-) TimerEvent: {}
+[18.880293] (-) TimerEvent: {}
+[18.982902] (-) TimerEvent: {}
+[19.089041] (-) TimerEvent: {}
+[19.189727] (-) TimerEvent: {}
+[19.290387] (-) TimerEvent: {}
+[19.391764] (-) TimerEvent: {}
+[19.492600] (-) TimerEvent: {}
+[19.593554] (-) TimerEvent: {}
+[19.696812] (-) TimerEvent: {}
+[19.797564] (-) TimerEvent: {}
+[19.898244] (-) TimerEvent: {}
+[19.999480] (-) TimerEvent: {}
+[20.103662] (-) TimerEvent: {}
+[20.205159] (-) TimerEvent: {}
+[20.306096] (-) TimerEvent: {}
+[20.406754] (-) TimerEvent: {}
+[20.507635] (-) TimerEvent: {}
+[20.608665] (-) TimerEvent: {}
+[20.709464] (-) TimerEvent: {}
+[20.740339] (servo_control) StderrLine: {'line': b'make[2]: *** [CMakeFiles/dynamic_tf_broadcaster.dir/build.make:63: CMakeFiles/dynamic_tf_broadcaster.dir/src/dynamic_tf_broadcaster.cpp.o] Error 1\n'}
+[20.743007] (servo_control) StderrLine: {'line': b'make[1]: *** [CMakeFiles/Makefile2:136: CMakeFiles/dynamic_tf_broadcaster.dir/all] Error 2\n'}
+[20.747636] (servo_control) StderrLine: {'line': b'make: *** [Makefile:141: all] Error 2\n'}
+[20.750896] (servo_control) CommandEnded: {'returncode': 2}
+[20.810059] (-) TimerEvent: {}
+[20.916448] (-) TimerEvent: {}
+[20.974866] (servo_control) JobEnded: {'identifier': 'servo_control', 'rc': 2}
+[20.987204] (-) EventReactorShutdown: {}
