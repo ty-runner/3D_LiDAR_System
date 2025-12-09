@@ -72,6 +72,7 @@ int main(int argc, char **argv)
   rclcpp::shutdown();
   return 0;
 }*/
+
 #include "rclcpp/rclcpp.hpp"
 #include "std_msgs/msg/float32_multi_array.hpp"
 #include "geometry_msgs/msg/pose_stamped.hpp"
@@ -142,11 +143,11 @@ private:
 
   void publish_tf()
   {
-    /*if (have_pose_) {
+    if (!have_pose_) {
       //  RCLCPP_WARN_THROTTLE(get_logger(), *get_clock(), 5000,
       //                       "Waiting for /mavros/local_position/pose...");
       return;
-    }*/
+    }
 
     geometry_msgs::msg::TransformStamped t;
     // Use the PX4 timestamp if available; fall back to now() if unset
@@ -204,4 +205,3 @@ int main(int argc, char **argv)
   rclcpp::shutdown();
   return 0;
 }
-

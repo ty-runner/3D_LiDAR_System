@@ -1,0 +1,37 @@
+[0.077s] Invoking command in '/root/lidar_system/build/servo_control': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /root/lidar_system/build/servo_control -- -j4 -l4
+[0.538s] Scanning dependencies of target lidar_pointcloud_node
+[0.571s] [ 33%] Built target scan_sequence_node
+[0.592s] [ 66%] Built target dynamic_tf_broadcaster
+[0.659s] [ 83%] Building CXX object CMakeFiles/lidar_pointcloud_node.dir/src/lidar_pointcloud_node.cpp.o
+[35.326s] [100%] Linking CXX executable lidar_pointcloud_node
+[36.990s] [100%] Built target lidar_pointcloud_node
+[37.265s] Invoked command in '/root/lidar_system/build/servo_control' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /root/lidar_system/build/servo_control -- -j4 -l4
+[37.358s] Invoking command in '/root/lidar_system/build/servo_control': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --install /root/lidar_system/build/servo_control
+[37.393s] -- Install configuration: ""
+[37.396s] -- Installing: /root/lidar_system/install/servo_control/lib/servo_control/dynamic_tf_broadcaster
+[37.425s] -- Set runtime path of "/root/lidar_system/install/servo_control/lib/servo_control/dynamic_tf_broadcaster" to ""
+[37.428s] -- Installing: /root/lidar_system/install/servo_control/lib/servo_control/lidar_pointcloud_node
+[37.439s] -- Set runtime path of "/root/lidar_system/install/servo_control/lib/servo_control/lidar_pointcloud_node" to ""
+[37.441s] -- Up-to-date: /root/lidar_system/install/servo_control/lib/servo_control/scan_sequence_node
+[37.443s] -- Up-to-date: /root/lidar_system/install/servo_control/share/servo_control/environment/pythonpath.sh
+[37.444s] -- Up-to-date: /root/lidar_system/install/servo_control/share/servo_control/environment/pythonpath.dsv
+[37.444s] -- Up-to-date: /root/lidar_system/install/servo_control/lib/python3.8/site-packages/servo_control
+[37.445s] -- Up-to-date: /root/lidar_system/install/servo_control/lib/python3.8/site-packages/servo_control/__init__.py
+[37.571s] Listing '/root/lidar_system/install/servo_control/lib/python3.8/site-packages/servo_control'...
+[37.592s] -- Up-to-date: /root/lidar_system/install/servo_control/lib/servo_control/servo_motor_node.py
+[37.593s] -- Up-to-date: /root/lidar_system/install/servo_control/share/ament_index/resource_index/package_run_dependencies/servo_control
+[37.595s] -- Up-to-date: /root/lidar_system/install/servo_control/share/ament_index/resource_index/parent_prefix_path/servo_control
+[37.595s] -- Up-to-date: /root/lidar_system/install/servo_control/share/servo_control/environment/ament_prefix_path.sh
+[37.596s] -- Up-to-date: /root/lidar_system/install/servo_control/share/servo_control/environment/ament_prefix_path.dsv
+[37.597s] -- Up-to-date: /root/lidar_system/install/servo_control/share/servo_control/environment/path.sh
+[37.597s] -- Up-to-date: /root/lidar_system/install/servo_control/share/servo_control/environment/path.dsv
+[37.597s] -- Up-to-date: /root/lidar_system/install/servo_control/share/servo_control/local_setup.bash
+[37.599s] -- Up-to-date: /root/lidar_system/install/servo_control/share/servo_control/local_setup.sh
+[37.599s] -- Up-to-date: /root/lidar_system/install/servo_control/share/servo_control/local_setup.zsh
+[37.600s] -- Up-to-date: /root/lidar_system/install/servo_control/share/servo_control/local_setup.dsv
+[37.600s] -- Installing: /root/lidar_system/install/servo_control/share/servo_control/package.dsv
+[37.601s] -- Up-to-date: /root/lidar_system/install/servo_control/share/ament_index/resource_index/packages/servo_control
+[37.601s] -- Up-to-date: /root/lidar_system/install/servo_control/share/servo_control/cmake/servo_controlConfig.cmake
+[37.602s] -- Up-to-date: /root/lidar_system/install/servo_control/share/servo_control/cmake/servo_controlConfig-version.cmake
+[37.603s] -- Up-to-date: /root/lidar_system/install/servo_control/share/servo_control/package.xml
+[37.615s] Invoked command in '/root/lidar_system/build/servo_control' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --install /root/lidar_system/build/servo_control

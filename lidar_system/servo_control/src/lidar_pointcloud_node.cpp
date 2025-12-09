@@ -39,7 +39,15 @@ private:
       cloud_transformed.header.frame_id = "base_link";
 
       pointcloud_publisher_->publish(cloud_transformed);
-      RCLCPP_INFO(this->get_logger(), "Published PointCloud2 data");
+      /*RCLCPP_INFO(this->get_logger(), "Published PointCloud2 data");
+      RCLCPP_INFO(this->get_logger(), "Delta time: ");
+      rclcpp::Time now = this->get_clock()->now();
+      rclcpp::Time scan_time = scan_msg->header.stamp;
+
+      rclcpp::Duration diff = now - scan_time;
+      double age_sec = diff.seconds();
+      RCLCPP_INFO(this->get_logger(), "Scan age: %.6f seconds (scan: %.3f, now: %.3f)", age_sec, scan_time.seconds(), now.seconds());
+      */
     }
     catch (const tf2::TransformException & ex) {
       RCLCPP_ERROR(this->get_logger(), "Could not transform scan: %s", ex.what());

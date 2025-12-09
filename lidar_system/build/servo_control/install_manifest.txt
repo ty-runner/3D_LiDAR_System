@@ -5,6 +5,7 @@
 /root/lidar_system/install/servo_control/share/servo_control/environment/pythonpath.dsv
 /root/lidar_system/install/servo_control/lib/python3.8/site-packages/servo_control/__init__.py
 /root/lidar_system/install/servo_control/lib/servo_control/servo_motor_node.py
+/root/lidar_system/install/servo_control/lib/servo_control/lidar_bbox_open3d.py
 /root/lidar_system/install/servo_control/share/ament_index/resource_index/package_run_dependencies/servo_control
 /root/lidar_system/install/servo_control/share/ament_index/resource_index/parent_prefix_path/servo_control
 /root/lidar_system/install/servo_control/share/servo_control/environment/ament_prefix_path.sh

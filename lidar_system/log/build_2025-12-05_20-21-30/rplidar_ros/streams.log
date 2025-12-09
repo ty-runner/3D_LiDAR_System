@@ -1,0 +1,6 @@
+[0.097s] Invoking command in '/root/copy_lidar_system/build/rplidar_ros': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /root/copy_lidar_system/build/rplidar_ros -- -j4 -l4
+[0.135s] CMake Error: The current CMakeCache.txt directory /root/copy_lidar_system/build/rplidar_ros/CMakeCache.txt is different than the directory /root/lidar_system/build/rplidar_ros where CMakeCache.txt was created. This may result in binaries being created in the wrong place. If you are not sure, reedit the CMakeCache.txt
+[0.185s] CMake Error: The source directory "/root/lidar_system/rplidar_ros" does not exist.
+[0.186s] Specify --help for usage, or press the help button on the CMake GUI.
+[0.188s] make: *** [Makefile:855: cmake_check_build_system] Error 1
+[0.198s] Invoked command in '/root/copy_lidar_system/build/rplidar_ros' returned '2': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /root/copy_lidar_system/build/rplidar_ros -- -j4 -l4

@@ -1,0 +1,28 @@
+[0.000000] (-) TimerEvent: {}
+[0.000253] (rplidar_ros) JobQueued: {'identifier': 'rplidar_ros', 'dependencies': OrderedDict()}
+[0.000583] (servo_control) JobQueued: {'identifier': 'servo_control', 'dependencies': OrderedDict()}
+[0.004045] (rplidar_ros) JobStarted: {'identifier': 'rplidar_ros'}
+[0.053105] (servo_control) JobStarted: {'identifier': 'servo_control'}
+[0.090201] (rplidar_ros) JobProgress: {'identifier': 'rplidar_ros', 'progress': 'cmake'}
+[0.092817] (rplidar_ros) JobProgress: {'identifier': 'rplidar_ros', 'progress': 'build'}
+[0.096120] (rplidar_ros) Command: {'cmd': ['/usr/bin/cmake', '--build', '/root/copy_lidar_system/build/rplidar_ros', '--', '-j4', '-l4'], 'cwd': '/root/copy_lidar_system/build/rplidar_ros', 'env': OrderedDict([('HOSTNAME', 'ubuntu-desktop'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/aarch64-linux-gnu:/opt/ros/foxy/lib'), ('HOME', '/root'), ('OLDPWD', '/'), ('ROS_PYTHON_VERSION', '3'), ('ROS_DISTRO', 'foxy'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('ROS_LOCALHOST_ONLY', '0'), ('QT_X11_NO_MITSHM', '1'), ('PATH', '/opt/ros/foxy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'), ('FASTRTPS_DEFAULT_PROFILES_FILE', '/fastdds.xml'), ('DISPLAY', ':0'), ('LANG', 'C.UTF-8'), ('RMW_IMPLEMENTATION', 'rmw_fastrtps_cpp'), ('ROS_DOMAIN_ID', '0'), ('AMENT_PREFIX_PATH', '/opt/ros/foxy'), ('PWD', '/root/copy_lidar_system/build/rplidar_ros'), ('LC_ALL', 'C.UTF-8'), ('PYTHONPATH', '/opt/ros/foxy/lib/python3.8/site-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/opt/ros/foxy')]), 'shell': False}
+[0.102378] (-) TimerEvent: {}
+[0.107106] (servo_control) JobProgress: {'identifier': 'servo_control', 'progress': 'cmake'}
+[0.110514] (servo_control) JobProgress: {'identifier': 'servo_control', 'progress': 'build'}
+[0.112200] (servo_control) Command: {'cmd': ['/usr/bin/cmake', '--build', '/root/copy_lidar_system/build/servo_control', '--', '-j4', '-l4'], 'cwd': '/root/copy_lidar_system/build/servo_control', 'env': OrderedDict([('HOSTNAME', 'ubuntu-desktop'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/aarch64-linux-gnu:/opt/ros/foxy/lib'), ('HOME', '/root'), ('OLDPWD', '/'), ('ROS_PYTHON_VERSION', '3'), ('ROS_DISTRO', 'foxy'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('ROS_LOCALHOST_ONLY', '0'), ('QT_X11_NO_MITSHM', '1'), ('PATH', '/opt/ros/foxy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'), ('FASTRTPS_DEFAULT_PROFILES_FILE', '/fastdds.xml'), ('DISPLAY', ':0'), ('LANG', 'C.UTF-8'), ('RMW_IMPLEMENTATION', 'rmw_fastrtps_cpp'), ('ROS_DOMAIN_ID', '0'), ('AMENT_PREFIX_PATH', '/opt/ros/foxy'), ('PWD', '/root/copy_lidar_system/build/servo_control'), ('LC_ALL', 'C.UTF-8'), ('PYTHONPATH', '/opt/ros/foxy/lib/python3.8/site-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/opt/ros/foxy')]), 'shell': False}
+[0.134850] (rplidar_ros) StderrLine: {'line': b'CMake Error: The current CMakeCache.txt directory /root/copy_lidar_system/build/rplidar_ros/CMakeCache.txt is different than the directory /root/lidar_system/build/rplidar_ros where CMakeCache.txt was created. This may result in binaries being created in the wrong place. If you are not sure, reedit the CMakeCache.txt\n'}
+[0.150467] (servo_control) StderrLine: {'line': b'CMake Error: The current CMakeCache.txt directory /root/copy_lidar_system/build/servo_control/CMakeCache.txt is different than the directory /root/lidar_system/build/servo_control where CMakeCache.txt was created. This may result in binaries being created in the wrong place. If you are not sure, reedit the CMakeCache.txt\n'}
+[0.185874] (rplidar_ros) StderrLine: {'line': b'CMake Error: The source directory "/root/lidar_system/rplidar_ros" does not exist.\n'}
+[0.186498] (rplidar_ros) StderrLine: {'line': b'Specify --help for usage, or press the help button on the CMake GUI.\n'}
+[0.189155] (rplidar_ros) StderrLine: {'line': b'make: *** [Makefile:855: cmake_check_build_system] Error 1\n'}
+[0.194319] (rplidar_ros) CommandEnded: {'returncode': 2}
+[0.202895] (-) TimerEvent: {}
+[0.203675] (servo_control) StderrLine: {'line': b'CMake Error: The source directory "/root/lidar_system/servo_control" does not exist.\n'}
+[0.204950] (servo_control) StderrLine: {'line': b'Specify --help for usage, or press the help button on the CMake GUI.\n'}
+[0.207143] (servo_control) StderrLine: {'line': b'make: *** [Makefile:354: cmake_check_build_system] Error 1\n'}
+[0.210991] (servo_control) CommandEnded: {'returncode': 2}
+[0.303098] (-) TimerEvent: {}
+[0.403615] (-) TimerEvent: {}
+[0.409136] (servo_control) JobEnded: {'identifier': 'servo_control', 'rc': 2}
+[0.412388] (rplidar_ros) JobEnded: {'identifier': 'rplidar_ros', 'rc': 'SIGINT'}
+[0.422967] (-) EventReactorShutdown: {}

@@ -1,0 +1,157 @@
+[0.077s] Invoking command in '/root/lidar_system/build/servo_control': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /root/lidar_system/build/servo_control -- -j4 -l4
+[0.573s] -- Found ament_cmake: 0.9.12 (/opt/ros/foxy/share/ament_cmake/cmake)
+[0.683s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[1.611s] -- Found rclcpp: 2.4.3 (/opt/ros/foxy/share/rclcpp/cmake)
+[1.805s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.824s] -- Found rosidl_adapter: 1.3.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+[2.823s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[3.090s] -- Found rmw_implementation_cmake: 1.0.4 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)
+[3.098s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[3.829s] -- Found geometry_msgs: 2.0.5 (/opt/ros/foxy/share/geometry_msgs/cmake)
+[3.990s] -- Found sensor_msgs: 2.0.5 (/opt/ros/foxy/share/sensor_msgs/cmake)
+[4.348s] -- Found tf2_ros: 0.13.14 (/opt/ros/foxy/share/tf2_ros/cmake)
+[6.640s] -- Found laser_geometry: 2.2.0 (/opt/ros/foxy/share/laser_geometry/cmake)
+[6.686s] -- Found tf2_sensor_msgs: 0.13.14 (/opt/ros/foxy/share/tf2_sensor_msgs/cmake)
+[6.897s] -- Eigen found (include: /usr/include/eigen3, version: 3.3.7)
+[7.437s] -- The imported target "vtkParseOGLExt" references the file
+[7.437s]    "/usr/bin/vtkParseOGLExt-7.1"
+[7.438s] but this file does not exist.  Possible reasons include:
+[7.438s] * The file was deleted, renamed, or moved to another location.
+[7.439s] * An install or uninstall procedure did not complete successfully.
+[7.439s] * The installation package was faulty and contained
+[7.440s]    "/usr/lib/cmake/vtk-7.1/VTKTargets.cmake"
+[7.440s] but not all the files it references.
+[7.440s] 
+[7.441s] -- The imported target "vtkRenderingPythonTkWidgets" references the file
+[7.441s]    "/usr/lib/aarch64-linux-gnu/libvtkRenderingPythonTkWidgets.so"
+[7.441s] but this file does not exist.  Possible reasons include:
+[7.442s] * The file was deleted, renamed, or moved to another location.
+[7.442s] * An install or uninstall procedure did not complete successfully.
+[7.443s] * The installation package was faulty and contained
+[7.443s]    "/usr/lib/cmake/vtk-7.1/VTKTargets.cmake"
+[7.443s] but not all the files it references.
+[7.444s] 
+[7.444s] -- The imported target "vtk" references the file
+[7.444s]    "/usr/bin/vtk"
+[7.445s] but this file does not exist.  Possible reasons include:
+[7.445s] * The file was deleted, renamed, or moved to another location.
+[7.446s] * An install or uninstall procedure did not complete successfully.
+[7.446s] * The installation package was faulty and contained
+[7.446s]    "/usr/lib/cmake/vtk-7.1/VTKTargets.cmake"
+[7.447s] but not all the files it references.
+[7.447s] 
+[7.448s] -- The imported target "pvtk" references the file
+[7.448s]    "/usr/bin/pvtk"
+[7.449s] but this file does not exist.  Possible reasons include:
+[7.450s] * The file was deleted, renamed, or moved to another location.
+[7.450s] * An install or uninstall procedure did not complete successfully.
+[7.451s] * The installation package was faulty and contained
+[7.451s]    "/usr/lib/cmake/vtk-7.1/VTKTargets.cmake"
+[7.451s] but not all the files it references.
+[7.452s] 
+[7.662s] -- Checking for module 'libusb-1.0'
+[7.663s] --   No package 'libusb-1.0' found
+[7.663s] -- Could NOT find USB_10 (missing: USB_10_LIBRARY USB_10_INCLUDE_DIR) 
+[7.664s] -- OpenNI disabled because libusb-1.0 not found.
+[7.664s] ** WARNING ** io features related to openni will be disabled
+[7.676s] -- Checking for module 'libusb-1.0'
+[7.690s] --   No package 'libusb-1.0' found
+[7.701s] -- Could NOT find USB_10 (missing: USB_10_LIBRARY USB_10_INCLUDE_DIR) 
+[7.702s] -- OpenNI 2 disabled because libusb-1.0 not found.
+[7.702s] ** WARNING ** io features related to openni2 will be disabled
+[7.703s] ** WARNING ** io features related to pcap will be disabled
+[7.703s] ** WARNING ** io features related to png will be disabled
+[7.769s] -- LIBUSB_1_LIBRARY (missing: LIBUSB_1_INCLUDE_DIR) 
+[7.770s] ** WARNING ** io features related to libusb-1.0 will be disabled
+[7.784s] -- Checking for module 'libusb-1.0'
+[7.797s] --   No package 'libusb-1.0' found
+[7.807s] -- Could NOT find USB_10 (missing: USB_10_LIBRARY USB_10_INCLUDE_DIR) 
+[7.808s] -- OpenNI disabled because libusb-1.0 not found.
+[7.808s] ** WARNING ** visualization features related to openni will be disabled
+[7.823s] -- Checking for module 'libusb-1.0'
+[7.835s] --   No package 'libusb-1.0' found
+[7.846s] -- Could NOT find USB_10 (missing: USB_10_LIBRARY USB_10_INCLUDE_DIR) 
+[7.846s] -- OpenNI 2 disabled because libusb-1.0 not found.
+[7.847s] ** WARNING ** visualization features related to openni2 will be disabled
+[7.922s] -- Checking for module 'libusb-1.0'
+[7.934s] --   No package 'libusb-1.0' found
+[7.944s] -- Could NOT find USB_10 (missing: USB_10_LIBRARY USB_10_INCLUDE_DIR) 
+[7.945s] -- OpenNI disabled because libusb-1.0 not found.
+[7.945s] ** WARNING ** people features related to openni will be disabled
+[7.960s] -- Checking for module 'libusb-1.0'
+[7.972s] --   No package 'libusb-1.0' found
+[7.983s] -- Could NOT find USB_10 (missing: USB_10_LIBRARY USB_10_INCLUDE_DIR) 
+[7.984s] -- OpenNI 2 disabled because libusb-1.0 not found.
+[7.984s] ** WARNING ** people features related to openni2 will be disabled
+[7.985s] ** WARNING ** people features related to pcap will be disabled
+[7.985s] ** WARNING ** people features related to png will be disabled
+[8.052s] -- LIBUSB_1_LIBRARY (missing: LIBUSB_1_INCLUDE_DIR) 
+[8.054s] ** WARNING ** people features related to libusb-1.0 will be disabled
+[8.069s] -- Checking for module 'libusb-1.0'
+[8.083s] --   No package 'libusb-1.0' found
+[8.095s] -- Could NOT find USB_10 (missing: USB_10_LIBRARY USB_10_INCLUDE_DIR) 
+[8.096s] -- OpenNI disabled because libusb-1.0 not found.
+[8.097s] ** WARNING ** people features related to openni will be disabled
+[8.111s] -- Checking for module 'libusb-1.0'
+[8.124s] --   No package 'libusb-1.0' found
+[8.135s] -- Could NOT find USB_10 (missing: USB_10_LIBRARY USB_10_INCLUDE_DIR) 
+[8.136s] -- OpenNI 2 disabled because libusb-1.0 not found.
+[8.136s] ** WARNING ** people features related to openni2 will be disabled
+[8.203s] -- looking for PCL_COMMON
+[8.205s] -- looking for PCL_KDTREE
+[8.208s] -- looking for PCL_OCTREE
+[8.210s] -- looking for PCL_SEARCH
+[8.212s] -- looking for PCL_SAMPLE_CONSENSUS
+[8.215s] -- looking for PCL_FILTERS
+[8.217s] -- looking for PCL_2D
+[8.225s] -- looking for PCL_FEATURES
+[8.228s] -- looking for PCL_IO
+[8.233s] -- looking for PCL_GEOMETRY
+[8.234s] -- looking for PCL_VISUALIZATION
+[8.237s] -- looking for PCL_ML
+[8.240s] -- looking for PCL_SEGMENTATION
+[8.243s] -- looking for PCL_PEOPLE
+[8.252s] -- Found pcl_conversions: 2.2.1 (/opt/ros/foxy/share/pcl_conversions/cmake)
+[9.032s] -- Found visualization_msgs: 2.0.5 (/opt/ros/foxy/share/visualization_msgs/cmake)
+[9.449s] -- Found ament_lint_auto: 0.9.8 (/opt/ros/foxy/share/ament_lint_auto/cmake)
+[9.740s] -- Configuring done
+[9.859s] -- Generating done
+[9.869s] -- Build files have been written to: /root/lidar_system/build/servo_control
+[10.113s] [ 16%] Linking CXX executable scan_sequence_node
+[10.121s] [ 33%] Linking CXX executable dynamic_tf_broadcaster
+[10.188s] [ 50%] Linking CXX executable lidar_pointcloud_node
+[10.953s] [ 66%] Built target scan_sequence_node
+[11.760s] [ 83%] Built target dynamic_tf_broadcaster
+[11.956s] [100%] Built target lidar_pointcloud_node
+[11.995s] Invoked command in '/root/lidar_system/build/servo_control' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /root/lidar_system/build/servo_control -- -j4 -l4
+[12.116s] Invoking command in '/root/lidar_system/build/servo_control': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --install /root/lidar_system/build/servo_control
+[12.165s] -- Install configuration: ""
+[12.166s] -- Installing: /root/lidar_system/install/servo_control/lib/servo_control/dynamic_tf_broadcaster
+[12.187s] -- Set runtime path of "/root/lidar_system/install/servo_control/lib/servo_control/dynamic_tf_broadcaster" to ""
+[12.187s] -- Installing: /root/lidar_system/install/servo_control/lib/servo_control/lidar_pointcloud_node
+[12.194s] -- Set runtime path of "/root/lidar_system/install/servo_control/lib/servo_control/lidar_pointcloud_node" to ""
+[12.196s] -- Installing: /root/lidar_system/install/servo_control/lib/servo_control/scan_sequence_node
+[12.201s] -- Set runtime path of "/root/lidar_system/install/servo_control/lib/servo_control/scan_sequence_node" to ""
+[12.202s] -- Up-to-date: /root/lidar_system/install/servo_control/share/servo_control/environment/pythonpath.sh
+[12.203s] -- Installing: /root/lidar_system/install/servo_control/share/servo_control/environment/pythonpath.dsv
+[12.204s] -- Up-to-date: /root/lidar_system/install/servo_control/lib/python3.8/site-packages/servo_control
+[12.205s] -- Installing: /root/lidar_system/install/servo_control/lib/python3.8/site-packages/servo_control/__init__.py
+[12.335s] Listing '/root/lidar_system/install/servo_control/lib/python3.8/site-packages/servo_control'...
+[12.336s] Compiling '/root/lidar_system/install/servo_control/lib/python3.8/site-packages/servo_control/__init__.py'...
+[12.357s] -- Installing: /root/lidar_system/install/servo_control/lib/servo_control/servo_motor_node.py
+[12.359s] -- Up-to-date: /root/lidar_system/install/servo_control/share/ament_index/resource_index/package_run_dependencies/servo_control
+[12.359s] -- Up-to-date: /root/lidar_system/install/servo_control/share/ament_index/resource_index/parent_prefix_path/servo_control
+[12.360s] -- Installing: /root/lidar_system/install/servo_control/share/servo_control/environment/ament_prefix_path.sh
+[12.365s] -- Installing: /root/lidar_system/install/servo_control/share/servo_control/environment/ament_prefix_path.dsv
+[12.365s] -- Installing: /root/lidar_system/install/servo_control/share/servo_control/environment/path.sh
+[12.366s] -- Installing: /root/lidar_system/install/servo_control/share/servo_control/environment/path.dsv
+[12.366s] -- Up-to-date: /root/lidar_system/install/servo_control/share/servo_control/local_setup.bash
+[12.367s] -- Up-to-date: /root/lidar_system/install/servo_control/share/servo_control/local_setup.sh
+[12.367s] -- Up-to-date: /root/lidar_system/install/servo_control/share/servo_control/local_setup.zsh
+[12.367s] -- Installing: /root/lidar_system/install/servo_control/share/servo_control/local_setup.dsv
+[12.368s] -- Installing: /root/lidar_system/install/servo_control/share/servo_control/package.dsv
+[12.368s] -- Up-to-date: /root/lidar_system/install/servo_control/share/ament_index/resource_index/packages/servo_control
+[12.370s] -- Up-to-date: /root/lidar_system/install/servo_control/share/servo_control/cmake/servo_controlConfig.cmake
+[12.371s] -- Up-to-date: /root/lidar_system/install/servo_control/share/servo_control/cmake/servo_controlConfig-version.cmake
+[12.372s] -- Up-to-date: /root/lidar_system/install/servo_control/share/servo_control/package.xml
+[12.384s] Invoked command in '/root/lidar_system/build/servo_control' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --install /root/lidar_system/build/servo_control

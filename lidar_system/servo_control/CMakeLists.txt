@@ -20,8 +20,8 @@ find_package(tf2 REQUIRED)
 include_directories(${tf2_ros_INCLUDE_DIRS})
 find_package(laser_geometry REQUIRED)
 find_package(tf2_sensor_msgs REQUIRED)
-find_package(PCL REQUIRED COMPONENTS people)
-find_package(pcl_conversions REQUIRED)
+#find_package(PCL REQUIRED COMPONENTS people)
+#find_package(pcl_conversions REQUIRED)
 find_package(visualization_msgs REQUIRED)
 
 #add_executable(people_detector_node src/people_detector_node.cpp)
@@ -71,6 +71,7 @@ ament_python_install_package(servo_control)
 
 install(PROGRAMS
   scripts/servo_motor_node.py
+  scripts/lidar_bbox_open3d.py
   DESTINATION lib/${PROJECT_NAME}
 )
 

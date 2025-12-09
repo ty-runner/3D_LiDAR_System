@@ -1,0 +1,374 @@
+[0.000000] (-) TimerEvent: {}
+[0.003243] (rplidar_ros) JobQueued: {'identifier': 'rplidar_ros', 'dependencies': OrderedDict()}
+[0.003773] (servo_control) JobQueued: {'identifier': 'servo_control', 'dependencies': OrderedDict()}
+[0.003932] (rplidar_ros) JobStarted: {'identifier': 'rplidar_ros'}
+[0.065978] (servo_control) JobStarted: {'identifier': 'servo_control'}
+[0.099340] (-) TimerEvent: {}
+[0.105396] (rplidar_ros) JobProgress: {'identifier': 'rplidar_ros', 'progress': 'cmake'}
+[0.108014] (rplidar_ros) JobProgress: {'identifier': 'rplidar_ros', 'progress': 'build'}
+[0.111236] (rplidar_ros) Command: {'cmd': ['/usr/bin/cmake', '--build', '/root/lidar_system/build/rplidar_ros', '--', '-j4', '-l4'], 'cwd': '/root/lidar_system/build/rplidar_ros', 'env': OrderedDict([('HOSTNAME', 'ubuntu-desktop'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/aarch64-linux-gnu:/opt/ros/foxy/lib'), ('HOME', '/root'), ('OLDPWD', '/'), ('ROS_PYTHON_VERSION', '3'), ('ROS_DISTRO', 'foxy'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('ROS_LOCALHOST_ONLY', '0'), ('QT_X11_NO_MITSHM', '1'), ('PATH', '/opt/ros/foxy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'), ('FASTRTPS_DEFAULT_PROFILES_FILE', '/fastdds.xml'), ('DISPLAY', ':0'), ('LANG', 'C.UTF-8'), ('RMW_IMPLEMENTATION', 'rmw_fastrtps_cpp'), ('ROS_DOMAIN_ID', '0'), ('AMENT_PREFIX_PATH', '/opt/ros/foxy'), ('PWD', '/root/lidar_system/build/rplidar_ros'), ('LC_ALL', 'C.UTF-8'), ('PYTHONPATH', '/opt/ros/foxy/lib/python3.8/site-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/opt/ros/foxy')]), 'shell': False}
+[0.133150] (servo_control) JobProgress: {'identifier': 'servo_control', 'progress': 'cmake'}
+[0.136909] (servo_control) JobProgress: {'identifier': 'servo_control', 'progress': 'build'}
+[0.138759] (servo_control) Command: {'cmd': ['/usr/bin/cmake', '--build', '/root/lidar_system/build/servo_control', '--', '-j4', '-l4'], 'cwd': '/root/lidar_system/build/servo_control', 'env': OrderedDict([('HOSTNAME', 'ubuntu-desktop'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/aarch64-linux-gnu:/opt/ros/foxy/lib'), ('HOME', '/root'), ('OLDPWD', '/'), ('ROS_PYTHON_VERSION', '3'), ('ROS_DISTRO', 'foxy'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('ROS_LOCALHOST_ONLY', '0'), ('QT_X11_NO_MITSHM', '1'), ('PATH', '/opt/ros/foxy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'), ('FASTRTPS_DEFAULT_PROFILES_FILE', '/fastdds.xml'), ('DISPLAY', ':0'), ('LANG', 'C.UTF-8'), ('RMW_IMPLEMENTATION', 'rmw_fastrtps_cpp'), ('ROS_DOMAIN_ID', '0'), ('AMENT_PREFIX_PATH', '/opt/ros/foxy'), ('PWD', '/root/lidar_system/build/servo_control'), ('LC_ALL', 'C.UTF-8'), ('PYTHONPATH', '/opt/ros/foxy/lib/python3.8/site-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/opt/ros/foxy')]), 'shell': False}
+[0.199521] (-) TimerEvent: {}
+[0.299910] (-) TimerEvent: {}
+[0.400320] (-) TimerEvent: {}
+[0.500661] (-) TimerEvent: {}
+[0.601043] (-) TimerEvent: {}
+[0.638701] (servo_control) StdoutLine: {'line': b'-- Found ament_cmake: 0.9.12 (/opt/ros/foxy/share/ament_cmake/cmake)\n'}
+[0.639415] (rplidar_ros) StdoutLine: {'line': b'-- Found ament_cmake: 0.9.12 (/opt/ros/foxy/share/ament_cmake/cmake)\n'}
+[0.702305] (-) TimerEvent: {}
+[0.746171] (rplidar_ros) StdoutLine: {'line': b'-- Using PYTHON_EXECUTABLE: /usr/bin/python3\n'}
+[0.749639] (servo_control) StdoutLine: {'line': b'-- Using PYTHON_EXECUTABLE: /usr/bin/python3\n'}
+[0.802468] (-) TimerEvent: {}
+[0.902891] (-) TimerEvent: {}
+[1.003358] (-) TimerEvent: {}
+[1.103683] (-) TimerEvent: {}
+[1.204065] (-) TimerEvent: {}
+[1.304525] (-) TimerEvent: {}
+[1.404888] (-) TimerEvent: {}
+[1.505272] (-) TimerEvent: {}
+[1.605621] (-) TimerEvent: {}
+[1.655016] (rplidar_ros) StdoutLine: {'line': b'-- Found rclcpp: 2.4.3 (/opt/ros/foxy/share/rclcpp/cmake)\n'}
+[1.677114] (servo_control) StdoutLine: {'line': b'-- Found rclcpp: 2.4.3 (/opt/ros/foxy/share/rclcpp/cmake)\n'}
+[1.705798] (-) TimerEvent: {}
+[1.806179] (-) TimerEvent: {}
+[1.871018] (rplidar_ros) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[1.871624] (servo_control) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[1.889911] (servo_control) StdoutLine: {'line': b'-- Found rosidl_adapter: 1.3.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)\n'}
+[1.890911] (rplidar_ros) StdoutLine: {'line': b'-- Found rosidl_adapter: 1.3.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)\n'}
+[1.906349] (-) TimerEvent: {}
+[2.006835] (-) TimerEvent: {}
+[2.107267] (-) TimerEvent: {}
+[2.207632] (-) TimerEvent: {}
+[2.307990] (-) TimerEvent: {}
+[2.408360] (-) TimerEvent: {}
+[2.508763] (-) TimerEvent: {}
+[2.609116] (-) TimerEvent: {}
+[2.709472] (-) TimerEvent: {}
+[2.809829] (-) TimerEvent: {}
+[2.888591] (rplidar_ros) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[2.889177] (servo_control) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[2.910003] (-) TimerEvent: {}
+[3.010377] (-) TimerEvent: {}
+[3.110724] (-) TimerEvent: {}
+[3.155477] (servo_control) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 1.0.4 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)\n'}
+[3.156788] (rplidar_ros) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 1.0.4 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)\n'}
+[3.163943] (servo_control) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[3.167150] (rplidar_ros) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[3.210910] (-) TimerEvent: {}
+[3.311282] (-) TimerEvent: {}
+[3.411703] (-) TimerEvent: {}
+[3.512133] (-) TimerEvent: {}
+[3.612529] (-) TimerEvent: {}
+[3.712878] (-) TimerEvent: {}
+[3.813227] (-) TimerEvent: {}
+[3.881338] (rplidar_ros) StdoutLine: {'line': b'-- Found sensor_msgs: 2.0.5 (/opt/ros/foxy/share/sensor_msgs/cmake)\n'}
+[3.895379] (servo_control) StdoutLine: {'line': b'-- Found geometry_msgs: 2.0.5 (/opt/ros/foxy/share/geometry_msgs/cmake)\n'}
+[3.913397] (-) TimerEvent: {}
+[4.013762] (-) TimerEvent: {}
+[4.055916] (servo_control) StdoutLine: {'line': b'-- Found sensor_msgs: 2.0.5 (/opt/ros/foxy/share/sensor_msgs/cmake)\n'}
+[4.113935] (-) TimerEvent: {}
+[4.215305] (-) TimerEvent: {}
+[4.315724] (-) TimerEvent: {}
+[4.414000] (servo_control) StdoutLine: {'line': b'-- Found tf2_ros: 0.13.14 (/opt/ros/foxy/share/tf2_ros/cmake)\n'}
+[4.415847] (-) TimerEvent: {}
+[4.419381] (rplidar_ros) StdoutLine: {'line': b'-- Found std_srvs: 2.0.5 (/opt/ros/foxy/share/std_srvs/cmake)\n'}
+[4.516026] (-) TimerEvent: {}
+[4.616362] (-) TimerEvent: {}
+[4.716707] (-) TimerEvent: {}
+[4.794472] (rplidar_ros) StdoutLine: {'line': b'-- Configuring done\n'}
+[4.817038] (-) TimerEvent: {}
+[4.910274] (rplidar_ros) StdoutLine: {'line': b'-- Generating done\n'}
+[4.917579] (rplidar_ros) StdoutLine: {'line': b'-- Build files have been written to: /root/lidar_system/build/rplidar_ros\n'}
+[4.918162] (-) TimerEvent: {}
+[5.018961] (-) TimerEvent: {}
+[5.119383] (-) TimerEvent: {}
+[5.219752] (-) TimerEvent: {}
+[5.269658] (rplidar_ros) StdoutLine: {'line': b'[  2%] Linking CXX executable rplidar_client\n'}
+[5.303262] (rplidar_ros) StdoutLine: {'line': b'[  5%] Linking CXX executable rplidar_node\n'}
+[5.305215] (rplidar_ros) StdoutLine: {'line': b'[  7%] Linking CXX executable rplidar_composition\n'}
+[5.319938] (-) TimerEvent: {}
+[5.420337] (-) TimerEvent: {}
+[5.520724] (-) TimerEvent: {}
+[5.621168] (-) TimerEvent: {}
+[5.722255] (-) TimerEvent: {}
+[5.822701] (-) TimerEvent: {}
+[5.934914] (-) TimerEvent: {}
+[6.035324] (-) TimerEvent: {}
+[6.136125] (-) TimerEvent: {}
+[6.237636] (-) TimerEvent: {}
+[6.339318] (-) TimerEvent: {}
+[6.439715] (-) TimerEvent: {}
+[6.540088] (-) TimerEvent: {}
+[6.640503] (-) TimerEvent: {}
+[6.706541] (servo_control) StdoutLine: {'line': b'-- Found laser_geometry: 2.2.0 (/opt/ros/foxy/share/laser_geometry/cmake)\n'}
+[6.740695] (-) TimerEvent: {}
+[6.752328] (servo_control) StdoutLine: {'line': b'-- Found tf2_sensor_msgs: 0.13.14 (/opt/ros/foxy/share/tf2_sensor_msgs/cmake)\n'}
+[6.841422] (-) TimerEvent: {}
+[6.899902] (rplidar_ros) StdoutLine: {'line': b'[ 23%] Built target rplidar_client\n'}
+[6.900637] (rplidar_ros) StdoutLine: {'line': b'[ 55%] Built target rplidar_composition\n'}
+[6.941218] (-) TimerEvent: {}
+[6.963668] (servo_control) StdoutLine: {'line': b'-- Eigen found (include: /usr/include/eigen3, version: 3.3.7)\n'}
+[6.995264] (rplidar_ros) StdoutLine: {'line': b'[100%] Built target rplidar_node\n'}
+[7.036534] (rplidar_ros) CommandEnded: {'returncode': 0}
+[7.042021] (-) TimerEvent: {}
+[7.143200] (-) TimerEvent: {}
+[7.244172] (rplidar_ros) JobProgress: {'identifier': 'rplidar_ros', 'progress': 'install'}
+[7.244691] (-) TimerEvent: {}
+[7.290169] (rplidar_ros) Command: {'cmd': ['/usr/bin/cmake', '--install', '/root/lidar_system/build/rplidar_ros'], 'cwd': '/root/lidar_system/build/rplidar_ros', 'env': OrderedDict([('HOSTNAME', 'ubuntu-desktop'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/aarch64-linux-gnu:/opt/ros/foxy/lib'), ('HOME', '/root'), ('OLDPWD', '/'), ('ROS_PYTHON_VERSION', '3'), ('ROS_DISTRO', 'foxy'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('ROS_LOCALHOST_ONLY', '0'), ('QT_X11_NO_MITSHM', '1'), ('PATH', '/opt/ros/foxy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'), ('FASTRTPS_DEFAULT_PROFILES_FILE', '/fastdds.xml'), ('DISPLAY', ':0'), ('LANG', 'C.UTF-8'), ('RMW_IMPLEMENTATION', 'rmw_fastrtps_cpp'), ('ROS_DOMAIN_ID', '0'), ('AMENT_PREFIX_PATH', '/opt/ros/foxy'), ('PWD', '/root/lidar_system/build/rplidar_ros'), ('LC_ALL', 'C.UTF-8'), ('PYTHONPATH', '/opt/ros/foxy/lib/python3.8/site-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/opt/ros/foxy')]), 'shell': False}
+[7.325978] (rplidar_ros) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[7.327077] (rplidar_ros) StdoutLine: {'line': b'-- Up-to-date: /root/lidar_system/install/rplidar_ros/share/rplidar_ros/launch\n'}
+[7.327920] (rplidar_ros) StdoutLine: {'line': b'-- Installing: /root/lidar_system/install/rplidar_ros/share/rplidar_ros/launch/rplidar_a3_launch.py\n'}
+[7.328836] (rplidar_ros) StdoutLine: {'line': b'-- Installing: /root/lidar_system/install/rplidar_ros/share/rplidar_ros/launch/view_rplidar_a2m8_launch.py\n'}
+[7.330185] (rplidar_ros) StdoutLine: {'line': b'-- Installing: /root/lidar_system/install/rplidar_ros/share/rplidar_ros/launch/view_rplidar_a2m7_launch.py\n'}
+[7.332329] (rplidar_ros) StdoutLine: {'line': b'-- Installing: /root/lidar_system/install/rplidar_ros/share/rplidar_ros/launch/rplidar_s2_launch.py\n'}
+[7.336498] (rplidar_ros) StdoutLine: {'line': b'-- Installing: /root/lidar_system/install/rplidar_ros/share/rplidar_ros/launch/rplidar_s1_tcp_launch.py\n'}
+[7.337894] (rplidar_ros) StdoutLine: {'line': b'-- Installing: /root/lidar_system/install/rplidar_ros/share/rplidar_ros/launch/view_rplidar_a1_launch.py\n'}
+[7.339497] (rplidar_ros) StdoutLine: {'line': b'-- Installing: /root/lidar_system/install/rplidar_ros/share/rplidar_ros/launch/rplidar_t1_launch.py\n'}
+[7.341005] (rplidar_ros) StdoutLine: {'line': b'-- Installing: /root/lidar_system/install/rplidar_ros/share/rplidar_ros/launch/system_launch.py\n'}
+[7.341445] (rplidar_ros) StdoutLine: {'line': b'-- Installing: /root/lidar_system/install/rplidar_ros/share/rplidar_ros/launch/rplidar_a1_launch.py\n'}
+[7.342170] (rplidar_ros) StdoutLine: {'line': b'-- Installing: /root/lidar_system/install/rplidar_ros/share/rplidar_ros/launch/view_rplidar_s1_launch.py\n'}
+[7.342578] (rplidar_ros) StdoutLine: {'line': b'-- Installing: /root/lidar_system/install/rplidar_ros/share/rplidar_ros/launch/view_rplidar_s2_launch.py\n'}
+[7.342971] (rplidar_ros) StdoutLine: {'line': b'-- Installing: /root/lidar_system/install/rplidar_ros/share/rplidar_ros/launch/view_rplidar_s2e_launch.py\n'}
+[7.343482] (rplidar_ros) StdoutLine: {'line': b'-- Installing: /root/lidar_system/install/rplidar_ros/share/rplidar_ros/launch/view_rplidar_a2m12_launch.py\n'}
+[7.344105] (rplidar_ros) StdoutLine: {'line': b'-- Installing: /root/lidar_system/install/rplidar_ros/share/rplidar_ros/launch/rplidar_a2m7_launch.py\n'}
+[7.345235] (-) TimerEvent: {}
+[7.345378] (rplidar_ros) StdoutLine: {'line': b'-- Installing: /root/lidar_system/install/rplidar_ros/share/rplidar_ros/launch/rplidar_s2e_launch.py\n'}
+[7.345841] (rplidar_ros) StdoutLine: {'line': b'-- Installing: /root/lidar_system/install/rplidar_ros/share/rplidar_ros/launch/view_rplidar_s1_tcp_launch.py\n'}
+[7.346237] (rplidar_ros) StdoutLine: {'line': b'-- Installing: /root/lidar_system/install/rplidar_ros/share/rplidar_ros/launch/rplidar_a2m12_launch.py\n'}
+[7.346603] (rplidar_ros) StdoutLine: {'line': b'-- Installing: /root/lidar_system/install/rplidar_ros/share/rplidar_ros/launch/rplidar_s1_launch.py\n'}
+[7.346963] (rplidar_ros) StdoutLine: {'line': b'-- Up-to-date: /root/lidar_system/install/rplidar_ros/share/rplidar_ros/launch/__pycache__\n'}
+[7.347321] (rplidar_ros) StdoutLine: {'line': b'-- Installing: /root/lidar_system/install/rplidar_ros/share/rplidar_ros/launch/__pycache__/system_launch.cpython-38.pyc\n'}
+[7.347702] (rplidar_ros) StdoutLine: {'line': b'-- Installing: /root/lidar_system/install/rplidar_ros/share/rplidar_ros/launch/rplidar_s3_launch.py\n'}
+[7.348072] (rplidar_ros) StdoutLine: {'line': b'-- Installing: /root/lidar_system/install/rplidar_ros/share/rplidar_ros/launch/rplidar_a2m8_launch.py\n'}
+[7.348937] (rplidar_ros) StdoutLine: {'line': b'-- Installing: /root/lidar_system/install/rplidar_ros/share/rplidar_ros/launch/view_rplidar_t1_launch.py\n'}
+[7.349332] (rplidar_ros) StdoutLine: {'line': b'-- Installing: /root/lidar_system/install/rplidar_ros/share/rplidar_ros/launch/view_rplidar_a3_launch.py\n'}
+[7.350132] (rplidar_ros) StdoutLine: {'line': b'-- Installing: /root/lidar_system/install/rplidar_ros/share/rplidar_ros/launch/rplidar_c1_launch.py\n'}
+[7.350817] (rplidar_ros) StdoutLine: {'line': b'-- Installing: /root/lidar_system/install/rplidar_ros/share/rplidar_ros/launch/view_rplidar_s3_launch.py\n'}
+[7.351204] (rplidar_ros) StdoutLine: {'line': b'-- Installing: /root/lidar_system/install/rplidar_ros/share/rplidar_ros/launch/view_rplidar_c1_launch.py\n'}
+[7.351575] (rplidar_ros) StdoutLine: {'line': b'-- Up-to-date: /root/lidar_system/install/rplidar_ros/share/rplidar_ros/rviz\n'}
+[7.351985] (rplidar_ros) StdoutLine: {'line': b'-- Installing: /root/lidar_system/install/rplidar_ros/share/rplidar_ros/rviz/rplidar_ros.rviz\n'}
+[7.352609] (rplidar_ros) StdoutLine: {'line': b'-- Installing: /root/lidar_system/install/rplidar_ros/lib/rplidar_ros/rplidar_node\n'}
+[7.353108] (rplidar_ros) StdoutLine: {'line': b'-- Set runtime path of "/root/lidar_system/install/rplidar_ros/lib/rplidar_ros/rplidar_node" to ""\n'}
+[7.353784] (rplidar_ros) StdoutLine: {'line': b'-- Installing: /root/lidar_system/install/rplidar_ros/lib/rplidar_ros/rplidar_composition\n'}
+[7.358445] (rplidar_ros) StdoutLine: {'line': b'-- Set runtime path of "/root/lidar_system/install/rplidar_ros/lib/rplidar_ros/rplidar_composition" to ""\n'}
+[7.359246] (rplidar_ros) StdoutLine: {'line': b'-- Installing: /root/lidar_system/install/rplidar_ros/lib/rplidar_ros/rplidar_client\n'}
+[7.370475] (rplidar_ros) StdoutLine: {'line': b'-- Set runtime path of "/root/lidar_system/install/rplidar_ros/lib/rplidar_ros/rplidar_client" to ""\n'}
+[7.371829] (rplidar_ros) StdoutLine: {'line': b'-- Up-to-date: /root/lidar_system/install/rplidar_ros/share/ament_index/resource_index/package_run_dependencies/rplidar_ros\n'}
+[7.372777] (rplidar_ros) StdoutLine: {'line': b'-- Up-to-date: /root/lidar_system/install/rplidar_ros/share/ament_index/resource_index/parent_prefix_path/rplidar_ros\n'}
+[7.373687] (rplidar_ros) StdoutLine: {'line': b'-- Installing: /root/lidar_system/install/rplidar_ros/share/rplidar_ros/environment/ament_prefix_path.sh\n'}
+[7.374557] (rplidar_ros) StdoutLine: {'line': b'-- Installing: /root/lidar_system/install/rplidar_ros/share/rplidar_ros/environment/ament_prefix_path.dsv\n'}
+[7.378190] (rplidar_ros) StdoutLine: {'line': b'-- Installing: /root/lidar_system/install/rplidar_ros/share/rplidar_ros/environment/path.sh\n'}
+[7.378680] (rplidar_ros) StdoutLine: {'line': b'-- Installing: /root/lidar_system/install/rplidar_ros/share/rplidar_ros/environment/path.dsv\n'}
+[7.379082] (rplidar_ros) StdoutLine: {'line': b'-- Up-to-date: /root/lidar_system/install/rplidar_ros/share/rplidar_ros/local_setup.bash\n'}
+[7.379464] (rplidar_ros) StdoutLine: {'line': b'-- Up-to-date: /root/lidar_system/install/rplidar_ros/share/rplidar_ros/local_setup.sh\n'}
+[7.379850] (rplidar_ros) StdoutLine: {'line': b'-- Up-to-date: /root/lidar_system/install/rplidar_ros/share/rplidar_ros/local_setup.zsh\n'}
+[7.380322] (rplidar_ros) StdoutLine: {'line': b'-- Installing: /root/lidar_system/install/rplidar_ros/share/rplidar_ros/local_setup.dsv\n'}
+[7.381315] (rplidar_ros) StdoutLine: {'line': b'-- Installing: /root/lidar_system/install/rplidar_ros/share/rplidar_ros/package.dsv\n'}
+[7.383067] (rplidar_ros) StdoutLine: {'line': b'-- Up-to-date: /root/lidar_system/install/rplidar_ros/share/ament_index/resource_index/packages/rplidar_ros\n'}
+[7.385350] (rplidar_ros) StdoutLine: {'line': b'-- Up-to-date: /root/lidar_system/install/rplidar_ros/share/rplidar_ros/cmake/ament_cmake_export_dependencies-extras.cmake\n'}
+[7.385773] (rplidar_ros) StdoutLine: {'line': b'-- Up-to-date: /root/lidar_system/install/rplidar_ros/share/rplidar_ros/cmake/ament_cmake_export_include_directories-extras.cmake\n'}
+[7.386137] (rplidar_ros) StdoutLine: {'line': b'-- Up-to-date: /root/lidar_system/install/rplidar_ros/share/rplidar_ros/cmake/rplidar_rosConfig.cmake\n'}
+[7.390809] (rplidar_ros) StdoutLine: {'line': b'-- Up-to-date: /root/lidar_system/install/rplidar_ros/share/rplidar_ros/cmake/rplidar_rosConfig-version.cmake\n'}
+[7.391407] (rplidar_ros) StdoutLine: {'line': b'-- Installing: /root/lidar_system/install/rplidar_ros/share/rplidar_ros/package.xml\n'}
+[7.391778] (rplidar_ros) CommandEnded: {'returncode': 0}
+[7.445622] (-) TimerEvent: {}
+[7.501950] (servo_control) StdoutLine: {'line': b'-- The imported target "vtkParseOGLExt" references the file\n'}
+[7.503792] (servo_control) StdoutLine: {'line': b'   "/usr/bin/vtkParseOGLExt-7.1"\n'}
+[7.504383] (servo_control) StdoutLine: {'line': b'but this file does not exist.  Possible reasons include:\n'}
+[7.504852] (servo_control) StdoutLine: {'line': b'* The file was deleted, renamed, or moved to another location.\n'}
+[7.505267] (servo_control) StdoutLine: {'line': b'* An install or uninstall procedure did not complete successfully.\n'}
+[7.505656] (servo_control) StdoutLine: {'line': b'* The installation package was faulty and contained\n'}
+[7.506050] (servo_control) StdoutLine: {'line': b'   "/usr/lib/cmake/vtk-7.1/VTKTargets.cmake"\n'}
+[7.506423] (servo_control) StdoutLine: {'line': b'but not all the files it references.\n'}
+[7.506761] (servo_control) StdoutLine: {'line': b'\n'}
+[7.507125] (servo_control) StdoutLine: {'line': b'-- The imported target "vtkRenderingPythonTkWidgets" references the file\n'}
+[7.507499] (servo_control) StdoutLine: {'line': b'   "/usr/lib/aarch64-linux-gnu/libvtkRenderingPythonTkWidgets.so"\n'}
+[7.507856] (servo_control) StdoutLine: {'line': b'but this file does not exist.  Possible reasons include:\n'}
+[7.508232] (servo_control) StdoutLine: {'line': b'* The file was deleted, renamed, or moved to another location.\n'}
+[7.508629] (servo_control) StdoutLine: {'line': b'* An install or uninstall procedure did not complete successfully.\n'}
+[7.508979] (servo_control) StdoutLine: {'line': b'* The installation package was faulty and contained\n'}
+[7.509400] (servo_control) StdoutLine: {'line': b'   "/usr/lib/cmake/vtk-7.1/VTKTargets.cmake"\n'}
+[7.509796] (servo_control) StdoutLine: {'line': b'but not all the files it references.\n'}
+[7.510161] (servo_control) StdoutLine: {'line': b'\n'}
+[7.510516] (servo_control) StdoutLine: {'line': b'-- The imported target "vtk" references the file\n'}
+[7.510876] (servo_control) StdoutLine: {'line': b'   "/usr/bin/vtk"\n'}
+[7.511301] (servo_control) StdoutLine: {'line': b'but this file does not exist.  Possible reasons include:\n'}
+[7.511683] (servo_control) StdoutLine: {'line': b'* The file was deleted, renamed, or moved to another location.\n'}
+[7.512085] (servo_control) StdoutLine: {'line': b'* An install or uninstall procedure did not complete successfully.\n'}
+[7.512557] (servo_control) StdoutLine: {'line': b'* The installation package was faulty and contained\n'}
+[7.512944] (servo_control) StdoutLine: {'line': b'   "/usr/lib/cmake/vtk-7.1/VTKTargets.cmake"\n'}
+[7.513295] (servo_control) StdoutLine: {'line': b'but not all the files it references.\n'}
+[7.513680] (servo_control) StdoutLine: {'line': b'\n'}
+[7.514076] (servo_control) StdoutLine: {'line': b'-- The imported target "pvtk" references the file\n'}
+[7.514481] (servo_control) StdoutLine: {'line': b'   "/usr/bin/pvtk"\n'}
+[7.514966] (servo_control) StdoutLine: {'line': b'but this file does not exist.  Possible reasons include:\n'}
+[7.516005] (servo_control) StdoutLine: {'line': b'* The file was deleted, renamed, or moved to another location.\n'}
+[7.516553] (servo_control) StdoutLine: {'line': b'* An install or uninstall procedure did not complete successfully.\n'}
+[7.516948] (servo_control) StdoutLine: {'line': b'* The installation package was faulty and contained\n'}
+[7.517416] (servo_control) StdoutLine: {'line': b'   "/usr/lib/cmake/vtk-7.1/VTKTargets.cmake"\n'}
+[7.517839] (servo_control) StdoutLine: {'line': b'but not all the files it references.\n'}
+[7.518218] (servo_control) StdoutLine: {'line': b'\n'}
+[7.545997] (-) TimerEvent: {}
+[7.646318] (-) TimerEvent: {}
+[7.725023] (rplidar_ros) JobEnded: {'identifier': 'rplidar_ros', 'rc': 0}
+[7.727552] (servo_control) StdoutLine: {'line': b"-- Checking for module 'libusb-1.0'\n"}
+[7.728942] (servo_control) StdoutLine: {'line': b"--   No package 'libusb-1.0' found\n"}
+[7.729479] (servo_control) StdoutLine: {'line': b'-- Could NOT find USB_10 (missing: USB_10_LIBRARY USB_10_INCLUDE_DIR) \n'}
+[7.730321] (servo_control) StdoutLine: {'line': b'-- OpenNI disabled because libusb-1.0 not found.\n'}
+[7.730842] (servo_control) StderrLine: {'line': b'** WARNING ** io features related to openni will be disabled\n'}
+[7.742033] (servo_control) StdoutLine: {'line': b"-- Checking for module 'libusb-1.0'\n"}
+[7.746487] (-) TimerEvent: {}
+[7.755998] (servo_control) StdoutLine: {'line': b"--   No package 'libusb-1.0' found\n"}
+[7.766503] (servo_control) StdoutLine: {'line': b'-- Could NOT find USB_10 (missing: USB_10_LIBRARY USB_10_INCLUDE_DIR) \n'}
+[7.767721] (servo_control) StdoutLine: {'line': b'-- OpenNI 2 disabled because libusb-1.0 not found.\n'}
+[7.768580] (servo_control) StderrLine: {'line': b'** WARNING ** io features related to openni2 will be disabled\n'}
+[7.768981] (servo_control) StderrLine: {'line': b'** WARNING ** io features related to pcap will be disabled\n'}
+[7.769336] (servo_control) StderrLine: {'line': b'** WARNING ** io features related to png will be disabled\n'}
+[7.834968] (servo_control) StdoutLine: {'line': b'-- LIBUSB_1_LIBRARY (missing: LIBUSB_1_INCLUDE_DIR) \n'}
+[7.835927] (servo_control) StderrLine: {'line': b'** WARNING ** io features related to libusb-1.0 will be disabled\n'}
+[7.846654] (-) TimerEvent: {}
+[7.850546] (servo_control) StdoutLine: {'line': b"-- Checking for module 'libusb-1.0'\n"}
+[7.862884] (servo_control) StdoutLine: {'line': b"--   No package 'libusb-1.0' found\n"}
+[7.873247] (servo_control) StdoutLine: {'line': b'-- Could NOT find USB_10 (missing: USB_10_LIBRARY USB_10_INCLUDE_DIR) \n'}
+[7.874254] (servo_control) StdoutLine: {'line': b'-- OpenNI disabled because libusb-1.0 not found.\n'}
+[7.874651] (servo_control) StderrLine: {'line': b'** WARNING ** visualization features related to openni will be disabled\n'}
+[7.889189] (servo_control) StdoutLine: {'line': b"-- Checking for module 'libusb-1.0'\n"}
+[7.901599] (servo_control) StdoutLine: {'line': b"--   No package 'libusb-1.0' found\n"}
+[7.911750] (servo_control) StdoutLine: {'line': b'-- Could NOT find USB_10 (missing: USB_10_LIBRARY USB_10_INCLUDE_DIR) \n'}
+[7.912763] (servo_control) StdoutLine: {'line': b'-- OpenNI 2 disabled because libusb-1.0 not found.\n'}
+[7.913153] (servo_control) StderrLine: {'line': b'** WARNING ** visualization features related to openni2 will be disabled\n'}
+[7.946814] (-) TimerEvent: {}
+[7.987838] (servo_control) StdoutLine: {'line': b"-- Checking for module 'libusb-1.0'\n"}
+[7.999931] (servo_control) StdoutLine: {'line': b"--   No package 'libusb-1.0' found\n"}
+[8.010171] (servo_control) StdoutLine: {'line': b'-- Could NOT find USB_10 (missing: USB_10_LIBRARY USB_10_INCLUDE_DIR) \n'}
+[8.010843] (servo_control) StdoutLine: {'line': b'-- OpenNI disabled because libusb-1.0 not found.\n'}
+[8.011516] (servo_control) StderrLine: {'line': b'** WARNING ** people features related to openni will be disabled\n'}
+[8.026222] (servo_control) StdoutLine: {'line': b"-- Checking for module 'libusb-1.0'\n"}
+[8.038579] (servo_control) StdoutLine: {'line': b"--   No package 'libusb-1.0' found\n"}
+[8.046972] (-) TimerEvent: {}
+[8.049048] (servo_control) StdoutLine: {'line': b'-- Could NOT find USB_10 (missing: USB_10_LIBRARY USB_10_INCLUDE_DIR) \n'}
+[8.049626] (servo_control) StdoutLine: {'line': b'-- OpenNI 2 disabled because libusb-1.0 not found.\n'}
+[8.050595] (servo_control) StderrLine: {'line': b'** WARNING ** people features related to openni2 will be disabled\n'}
+[8.050985] (servo_control) StderrLine: {'line': b'** WARNING ** people features related to pcap will be disabled\n'}
+[8.051326] (servo_control) StderrLine: {'line': b'** WARNING ** people features related to png will be disabled\n'}
+[8.118708] (servo_control) StdoutLine: {'line': b'-- LIBUSB_1_LIBRARY (missing: LIBUSB_1_INCLUDE_DIR) \n'}
+[8.119284] (servo_control) StderrLine: {'line': b'** WARNING ** people features related to libusb-1.0 will be disabled\n'}
+[8.135524] (servo_control) StdoutLine: {'line': b"-- Checking for module 'libusb-1.0'\n"}
+[8.147148] (-) TimerEvent: {}
+[8.149102] (servo_control) StdoutLine: {'line': b"--   No package 'libusb-1.0' found\n"}
+[8.159561] (servo_control) StdoutLine: {'line': b'-- Could NOT find USB_10 (missing: USB_10_LIBRARY USB_10_INCLUDE_DIR) \n'}
+[8.162263] (servo_control) StdoutLine: {'line': b'-- OpenNI disabled because libusb-1.0 not found.\n'}
+[8.162894] (servo_control) StderrLine: {'line': b'** WARNING ** people features related to openni will be disabled\n'}
+[8.176797] (servo_control) StdoutLine: {'line': b"-- Checking for module 'libusb-1.0'\n"}
+[8.189899] (servo_control) StdoutLine: {'line': b"--   No package 'libusb-1.0' found\n"}
+[8.201011] (servo_control) StdoutLine: {'line': b'-- Could NOT find USB_10 (missing: USB_10_LIBRARY USB_10_INCLUDE_DIR) \n'}
+[8.201986] (servo_control) StdoutLine: {'line': b'-- OpenNI 2 disabled because libusb-1.0 not found.\n'}
+[8.202462] (servo_control) StderrLine: {'line': b'** WARNING ** people features related to openni2 will be disabled\n'}
+[8.247316] (-) TimerEvent: {}
+[8.268846] (servo_control) StdoutLine: {'line': b'-- looking for PCL_COMMON\n'}
+[8.271363] (servo_control) StdoutLine: {'line': b'-- looking for PCL_KDTREE\n'}
+[8.274180] (servo_control) StdoutLine: {'line': b'-- looking for PCL_OCTREE\n'}
+[8.276493] (servo_control) StdoutLine: {'line': b'-- looking for PCL_SEARCH\n'}
+[8.278731] (servo_control) StdoutLine: {'line': b'-- looking for PCL_SAMPLE_CONSENSUS\n'}
+[8.281267] (servo_control) StdoutLine: {'line': b'-- looking for PCL_FILTERS\n'}
+[8.283608] (servo_control) StdoutLine: {'line': b'-- looking for PCL_2D\n'}
+[8.291368] (servo_control) StdoutLine: {'line': b'-- looking for PCL_FEATURES\n'}
+[8.294387] (servo_control) StdoutLine: {'line': b'-- looking for PCL_IO\n'}
+[8.298384] (servo_control) StdoutLine: {'line': b'-- looking for PCL_GEOMETRY\n'}
+[8.299939] (servo_control) StdoutLine: {'line': b'-- looking for PCL_VISUALIZATION\n'}
+[8.303074] (servo_control) StdoutLine: {'line': b'-- looking for PCL_ML\n'}
+[8.305972] (servo_control) StdoutLine: {'line': b'-- looking for PCL_SEGMENTATION\n'}
+[8.309166] (servo_control) StdoutLine: {'line': b'-- looking for PCL_PEOPLE\n'}
+[8.318615] (servo_control) StdoutLine: {'line': b'-- Found pcl_conversions: 2.2.1 (/opt/ros/foxy/share/pcl_conversions/cmake)\n'}
+[8.347531] (-) TimerEvent: {}
+[8.447878] (-) TimerEvent: {}
+[8.548320] (-) TimerEvent: {}
+[8.648715] (-) TimerEvent: {}
+[8.749070] (-) TimerEvent: {}
+[8.849455] (-) TimerEvent: {}
+[8.949868] (-) TimerEvent: {}
+[9.050224] (-) TimerEvent: {}
+[9.098687] (servo_control) StdoutLine: {'line': b'-- Found visualization_msgs: 2.0.5 (/opt/ros/foxy/share/visualization_msgs/cmake)\n'}
+[9.150392] (-) TimerEvent: {}
+[9.250757] (-) TimerEvent: {}
+[9.351174] (-) TimerEvent: {}
+[9.451602] (-) TimerEvent: {}
+[9.515316] (servo_control) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.9.8 (/opt/ros/foxy/share/ament_lint_auto/cmake)\n'}
+[9.551838] (-) TimerEvent: {}
+[9.652181] (-) TimerEvent: {}
+[9.752618] (-) TimerEvent: {}
+[9.806078] (servo_control) StdoutLine: {'line': b'-- Configuring done\n'}
+[9.852796] (-) TimerEvent: {}
+[9.924972] (servo_control) StdoutLine: {'line': b'-- Generating done\n'}
+[9.935185] (servo_control) StdoutLine: {'line': b'-- Build files have been written to: /root/lidar_system/build/servo_control\n'}
+[9.952968] (-) TimerEvent: {}
+[10.053893] (-) TimerEvent: {}
+[10.154346] (-) TimerEvent: {}
+[10.179057] (servo_control) StdoutLine: {'line': b'[ 16%] Linking CXX executable scan_sequence_node\n'}
+[10.186850] (servo_control) StdoutLine: {'line': b'[ 33%] Linking CXX executable dynamic_tf_broadcaster\n'}
+[10.253765] (servo_control) StdoutLine: {'line': b'[ 50%] Linking CXX executable lidar_pointcloud_node\n'}
+[10.254940] (-) TimerEvent: {}
+[10.356468] (-) TimerEvent: {}
+[10.457505] (-) TimerEvent: {}
+[10.560581] (-) TimerEvent: {}
+[10.662646] (-) TimerEvent: {}
+[10.763094] (-) TimerEvent: {}
+[10.865760] (-) TimerEvent: {}
+[10.966191] (-) TimerEvent: {}
+[11.018666] (servo_control) StdoutLine: {'line': b'[ 66%] Built target scan_sequence_node\n'}
+[11.066402] (-) TimerEvent: {}
+[11.166834] (-) TimerEvent: {}
+[11.267593] (-) TimerEvent: {}
+[11.368325] (-) TimerEvent: {}
+[11.468758] (-) TimerEvent: {}
+[11.569112] (-) TimerEvent: {}
+[11.669468] (-) TimerEvent: {}
+[11.769885] (-) TimerEvent: {}
+[11.826165] (servo_control) StdoutLine: {'line': b'[ 83%] Built target dynamic_tf_broadcaster\n'}
+[11.870049] (-) TimerEvent: {}
+[11.970383] (-) TimerEvent: {}
+[12.022272] (servo_control) StdoutLine: {'line': b'[100%] Built target lidar_pointcloud_node\n'}
+[12.061493] (servo_control) CommandEnded: {'returncode': 0}
+[12.070982] (-) TimerEvent: {}
+[12.172784] (-) TimerEvent: {}
+[12.178339] (servo_control) JobProgress: {'identifier': 'servo_control', 'progress': 'install'}
+[12.181885] (servo_control) Command: {'cmd': ['/usr/bin/cmake', '--install', '/root/lidar_system/build/servo_control'], 'cwd': '/root/lidar_system/build/servo_control', 'env': OrderedDict([('HOSTNAME', 'ubuntu-desktop'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/aarch64-linux-gnu:/opt/ros/foxy/lib'), ('HOME', '/root'), ('OLDPWD', '/'), ('ROS_PYTHON_VERSION', '3'), ('ROS_DISTRO', 'foxy'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('ROS_LOCALHOST_ONLY', '0'), ('QT_X11_NO_MITSHM', '1'), ('PATH', '/opt/ros/foxy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'), ('FASTRTPS_DEFAULT_PROFILES_FILE', '/fastdds.xml'), ('DISPLAY', ':0'), ('LANG', 'C.UTF-8'), ('RMW_IMPLEMENTATION', 'rmw_fastrtps_cpp'), ('ROS_DOMAIN_ID', '0'), ('AMENT_PREFIX_PATH', '/opt/ros/foxy'), ('PWD', '/root/lidar_system/build/servo_control'), ('LC_ALL', 'C.UTF-8'), ('PYTHONPATH', '/opt/ros/foxy/lib/python3.8/site-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/opt/ros/foxy')]), 'shell': False}
+[12.231133] (servo_control) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[12.232489] (servo_control) StdoutLine: {'line': b'-- Installing: /root/lidar_system/install/servo_control/lib/servo_control/dynamic_tf_broadcaster\n'}
+[12.252916] (servo_control) StdoutLine: {'line': b'-- Set runtime path of "/root/lidar_system/install/servo_control/lib/servo_control/dynamic_tf_broadcaster" to ""\n'}
+[12.253563] (servo_control) StdoutLine: {'line': b'-- Installing: /root/lidar_system/install/servo_control/lib/servo_control/lidar_pointcloud_node\n'}
+[12.260455] (servo_control) StdoutLine: {'line': b'-- Set runtime path of "/root/lidar_system/install/servo_control/lib/servo_control/lidar_pointcloud_node" to ""\n'}
+[12.261834] (servo_control) StdoutLine: {'line': b'-- Installing: /root/lidar_system/install/servo_control/lib/servo_control/scan_sequence_node\n'}
+[12.267175] (servo_control) StdoutLine: {'line': b'-- Set runtime path of "/root/lidar_system/install/servo_control/lib/servo_control/scan_sequence_node" to ""\n'}
+[12.268425] (servo_control) StdoutLine: {'line': b'-- Up-to-date: /root/lidar_system/install/servo_control/share/servo_control/environment/pythonpath.sh\n'}
+[12.269406] (servo_control) StdoutLine: {'line': b'-- Installing: /root/lidar_system/install/servo_control/share/servo_control/environment/pythonpath.dsv\n'}
+[12.269943] (servo_control) StdoutLine: {'line': b'-- Up-to-date: /root/lidar_system/install/servo_control/lib/python3.8/site-packages/servo_control\n'}
+[12.270420] (servo_control) StdoutLine: {'line': b'-- Installing: /root/lidar_system/install/servo_control/lib/python3.8/site-packages/servo_control/__init__.py\n'}
+[12.272947] (-) TimerEvent: {}
+[12.373279] (-) TimerEvent: {}
+[12.401577] (servo_control) StdoutLine: {'line': b"Listing '/root/lidar_system/install/servo_control/lib/python3.8/site-packages/servo_control'...\n"}
+[12.402447] (servo_control) StdoutLine: {'line': b"Compiling '/root/lidar_system/install/servo_control/lib/python3.8/site-packages/servo_control/__init__.py'...\n"}
+[12.423323] (servo_control) StdoutLine: {'line': b'-- Installing: /root/lidar_system/install/servo_control/lib/servo_control/servo_motor_node.py\n'}
+[12.424697] (servo_control) StdoutLine: {'line': b'-- Up-to-date: /root/lidar_system/install/servo_control/share/ament_index/resource_index/package_run_dependencies/servo_control\n'}
+[12.425509] (servo_control) StdoutLine: {'line': b'-- Up-to-date: /root/lidar_system/install/servo_control/share/ament_index/resource_index/parent_prefix_path/servo_control\n'}
+[12.426296] (servo_control) StdoutLine: {'line': b'-- Installing: /root/lidar_system/install/servo_control/share/servo_control/environment/ament_prefix_path.sh\n'}
+[12.427057] (servo_control) StdoutLine: {'line': b'-- Installing: /root/lidar_system/install/servo_control/share/servo_control/environment/ament_prefix_path.dsv\n'}
+[12.431628] (servo_control) StdoutLine: {'line': b'-- Installing: /root/lidar_system/install/servo_control/share/servo_control/environment/path.sh\n'}
+[12.432117] (servo_control) StdoutLine: {'line': b'-- Installing: /root/lidar_system/install/servo_control/share/servo_control/environment/path.dsv\n'}
+[12.432602] (servo_control) StdoutLine: {'line': b'-- Up-to-date: /root/lidar_system/install/servo_control/share/servo_control/local_setup.bash\n'}
+[12.433019] (servo_control) StdoutLine: {'line': b'-- Up-to-date: /root/lidar_system/install/servo_control/share/servo_control/local_setup.sh\n'}
+[12.433424] (servo_control) StdoutLine: {'line': b'-- Up-to-date: /root/lidar_system/install/servo_control/share/servo_control/local_setup.zsh\n'}
+[12.433814] (servo_control) StdoutLine: {'line': b'-- Installing: /root/lidar_system/install/servo_control/share/servo_control/local_setup.dsv\n'}
+[12.434212] (servo_control) StdoutLine: {'line': b'-- Installing: /root/lidar_system/install/servo_control/share/servo_control/package.dsv\n'}
+[12.434599] (servo_control) StdoutLine: {'line': b'-- Up-to-date: /root/lidar_system/install/servo_control/share/ament_index/resource_index/packages/servo_control\n'}
+[12.435757] (servo_control) StdoutLine: {'line': b'-- Up-to-date: /root/lidar_system/install/servo_control/share/servo_control/cmake/servo_controlConfig.cmake\n'}
+[12.436674] (servo_control) StdoutLine: {'line': b'-- Up-to-date: /root/lidar_system/install/servo_control/share/servo_control/cmake/servo_controlConfig-version.cmake\n'}
+[12.437936] (servo_control) StdoutLine: {'line': b'-- Up-to-date: /root/lidar_system/install/servo_control/share/servo_control/package.xml\n'}
+[12.439703] (servo_control) CommandEnded: {'returncode': 0}
+[12.473916] (-) TimerEvent: {}
+[12.574345] (-) TimerEvent: {}
+[12.673461] (servo_control) JobEnded: {'identifier': 'servo_control', 'rc': 0}
+[12.676926] (-) TimerEvent: {}
+[12.677065] (-) EventReactorShutdown: {}
